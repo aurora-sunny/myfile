@@ -1,0 +1,71 @@
+<?xml version="1.0"?>
+<map version="1.0" orientation="isometric" renderorder="right-down" width="10" height="10" tilewidth="254" tileheight="128" nextobjectid="1">
+ <properties>
+  <property name="mapID" type="int" value="1"/>
+ </properties>
+ <tileset firstgid="1" name="l1" tilewidth="254" tileheight="129" spacing="6" tilecount="49" columns="7">
+  <properties>
+   <property name="riverGroup" value="4-23"/>
+  </properties>
+  <image source="../Documents/workspace/tiled/sg2/测试地图3/terrain2.png" width="1814" height="939"/>
+  <terraintypes>
+   <terrain name="water" tile="-1">
+    <properties>
+     <property name="ex" value="water"/>
+    </properties>
+   </terrain>
+  </terraintypes>
+  <tile id="0" terrain="0,,,"/>
+  <tile id="1" terrain=",,0,"/>
+  <tile id="2" terrain=",,,0"/>
+  <tile id="3" terrain=",0,,"/>
+  <tile id="5" terrain="0,0,0,0"/>
+ </tileset>
+ <layer name="di" width="10" height="10">
+  <properties>
+   <property name="tileset" value="l1"/>
+   <property name="type" type="int" value="2"/>
+  </properties>
+  <data encoding="base64" compression="zlib">
+   eJxjYBh4wDnQDhhEAAAK/AAK
+  </data>
+ </layer>
+ <layer name="res" width="10" height="10">
+  <properties>
+   <property name="tileset" value="l1"/>
+   <property name="type" type="int" value="3"/>
+  </properties>
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFgwkAAAGQAAE=
+  </data>
+ </layer>
+ <layer name="mountain" width="10" height="10">
+  <properties>
+   <property name="tileset" value="l1"/>
+   <property name="type" type="int" value="9"/>
+  </properties>
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFgwkAAAGQAAE=
+  </data>
+ </layer>
+ <layer name="biaoji" width="10" height="10">
+  <properties>
+   <property name="tileset" value="l1"/>
+   <property name="type" type="int" value="7"/>
+  </properties>
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFgwkAAAGQAAE=
+  </data>
+ </layer>
+ <layer name="random" width="10" height="10">
+  <properties>
+   <property name="tileset" value="l1"/>
+   <property name="type" type="int" value="5"/>
+  </properties>
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFgwkAAAGQAAE=
+  </data>
+ </layer>
+<eventtriggers version="1.0"/>
+<business/>
+</map>

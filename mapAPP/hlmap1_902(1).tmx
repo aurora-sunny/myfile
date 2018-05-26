@@ -1,0 +1,1334 @@
+<?xml version="1.0"?>
+<map version="1.0" orientation="isometric" renderorder="right-down" width="42" height="42" tilewidth="254" tileheight="128" nextobjectid="4">
+ <properties>
+  <property name="mapID" value="902"/>
+ </properties>
+ <tileset firstgid="1" name="l1" tilewidth="400" tileheight="350" tilecount="7" columns="0">
+  <tileoffset x="-100" y="100"/>
+  <properties>
+   <property name="riverGroup" value="6"/>
+  </properties>
+  <tile id="0">
+   <properties>
+    <property name="size" value="-1,-1,3,3"/>
+   </properties>
+   <image width="400" height="350" source="x1/1.png"/>
+  </tile>
+  <tile id="1">
+   <properties>
+    <property name="size" value="-1,-1,3,3"/>
+   </properties>
+   <image width="400" height="350" source="x1/2.png"/>
+  </tile>
+  <tile id="2">
+   <properties>
+    <property name="size" value="-1,-1,3,3"/>
+   </properties>
+   <image width="400" height="350" source="x1/3.png"/>
+  </tile>
+  <tile id="3">
+   <properties>
+    <property name="size" value="-1,-1,3,3"/>
+   </properties>
+   <image width="400" height="350" source="x1/4.png"/>
+  </tile>
+  <tile id="4">
+   <properties>
+    <property name="size" value="-1,-1,3,3"/>
+   </properties>
+   <image width="400" height="350" source="x1/5.png"/>
+  </tile>
+  <tile id="5">
+   <properties>
+    <property name="size" value="-1,-1,3,3"/>
+   </properties>
+   <image width="400" height="350" source="x1/6.png"/>
+  </tile>
+  <tile id="6">
+   <image width="254" height="206" source="x2/1.png"/>
+  </tile>
+ </tileset>
+ <tileset firstgid="8" name="l2" tilewidth="254" tileheight="206" tilecount="26" columns="0">
+  <tile id="0">
+   <image width="254" height="206" source="x2/1.png"/>
+  </tile>
+  <tile id="1">
+   <image width="254" height="206" source="x2/2.png"/>
+  </tile>
+  <tile id="2">
+   <image width="254" height="206" source="x2/3.png"/>
+  </tile>
+  <tile id="3">
+   <image width="254" height="206" source="x2/4.png"/>
+  </tile>
+  <tile id="4">
+   <image width="254" height="206" source="x2/5.png"/>
+  </tile>
+  <tile id="5">
+   <image width="254" height="206" source="x2/6.png"/>
+  </tile>
+  <tile id="6">
+   <image width="254" height="206" source="x2/7.png"/>
+  </tile>
+  <tile id="7">
+   <image width="254" height="206" source="x2/8.png"/>
+  </tile>
+  <tile id="8">
+   <image width="254" height="206" source="x2/9.png"/>
+  </tile>
+  <tile id="9">
+   <image width="254" height="206" source="x2/10.png"/>
+  </tile>
+  <tile id="10">
+   <image width="254" height="206" source="x2/11.png"/>
+  </tile>
+  <tile id="11">
+   <image width="254" height="206" source="x2/12.png"/>
+  </tile>
+  <tile id="12">
+   <image width="254" height="206" source="x2/13.png"/>
+  </tile>
+  <tile id="13">
+   <image width="254" height="206" source="x2/14.png"/>
+  </tile>
+  <tile id="14">
+   <image width="254" height="206" source="x2/15.png"/>
+  </tile>
+  <tile id="15">
+   <image width="254" height="206" source="x2/16.png"/>
+  </tile>
+  <tile id="16">
+   <image width="254" height="206" source="x2/17.png"/>
+  </tile>
+  <tile id="17">
+   <image width="254" height="206" source="x2/18.png"/>
+  </tile>
+  <tile id="18">
+   <image width="254" height="206" source="x2/19.png"/>
+  </tile>
+  <tile id="19">
+   <image width="254" height="206" source="x2/20.png"/>
+  </tile>
+  <tile id="20">
+   <image width="254" height="206" source="x2/21.png"/>
+  </tile>
+  <tile id="21">
+   <image width="254" height="206" source="x2/tiandi1.png"/>
+  </tile>
+  <tile id="22">
+   <image width="254" height="206" source="x2/tiandi2.png"/>
+  </tile>
+  <tile id="23">
+   <image width="254" height="206" source="x2/tiandi3.png"/>
+  </tile>
+  <tile id="24">
+   <image width="254" height="206" source="x2/tiandi4.png"/>
+  </tile>
+  <tile id="25">
+   <image width="254" height="206" source="x2/tiandi5.png"/>
+  </tile>
+ </tileset>
+ <tileset firstgid="34" name="l3" tilewidth="254" tileheight="206" spacing="6" tilecount="77" columns="7">
+  <properties>
+   <property name="bridgeGroup" value="37-47"/>
+   <property name="resGroup" value="0-30"/>
+   <property name="riverGroup" value=""/>
+  </properties>
+  <image source="res.png" width="1824" height="2326"/>
+ </tileset>
+ <tileset firstgid="111" name="l4" tilewidth="762" tileheight="618" tilecount="88" columns="0">
+  <terraintypes>
+   <terrain name="water" tile="-1"/>
+   <terrain name="ground" tile="-1"/>
+  </terraintypes>
+  <tile id="0">
+   <properties>
+    <property name="size" value=""/>
+   </properties>
+   <image width="254" height="206" source="x4/11-1.png"/>
+  </tile>
+  <tile id="1">
+   <properties>
+    <property name="size" value=""/>
+   </properties>
+   <image width="254" height="206" source="x4/11-1-1.png"/>
+  </tile>
+  <tile id="2">
+   <properties>
+    <property name="size" value=""/>
+   </properties>
+   <image width="254" height="206" source="x4/11-1-1-1.png"/>
+  </tile>
+  <tile id="3">
+   <properties>
+    <property name="size" value=""/>
+   </properties>
+   <image width="254" height="206" source="x4/11-1-2.png"/>
+  </tile>
+  <tile id="4">
+   <properties>
+    <property name="size" value=""/>
+   </properties>
+   <image width="254" height="206" source="x4/11-2.png"/>
+  </tile>
+  <tile id="5">
+   <properties>
+    <property name="size" value=""/>
+   </properties>
+   <image width="254" height="206" source="x4/11-2-1.png"/>
+  </tile>
+  <tile id="6">
+   <properties>
+    <property name="size" value="-1,-2,2,2"/>
+   </properties>
+   <image width="508" height="412" source="x4/22-1.png"/>
+  </tile>
+  <tile id="7">
+   <properties>
+    <property name="size" value="-1,-2,2,2"/>
+   </properties>
+   <image width="508" height="412" source="x4/22-1-1.png"/>
+  </tile>
+  <tile id="8">
+   <properties>
+    <property name="size" value="-1,-2,2,2"/>
+   </properties>
+   <image width="508" height="412" source="x4/22-1-1-2.png"/>
+  </tile>
+  <tile id="9">
+   <properties>
+    <property name="size" value="-1,-2,2,2"/>
+   </properties>
+   <image width="508" height="412" source="x4/22-1-2.png"/>
+  </tile>
+  <tile id="10">
+   <properties>
+    <property name="size" value="-1,-2,2,2"/>
+   </properties>
+   <image width="508" height="412" source="x4/22-1-3.png"/>
+  </tile>
+  <tile id="11">
+   <properties>
+    <property name="size" value="-1,-2,2,2"/>
+   </properties>
+   <image width="508" height="412" source="x4/22-2.png"/>
+  </tile>
+  <tile id="12">
+   <properties>
+    <property name="size" value="-1,-2,2,2"/>
+   </properties>
+   <image width="508" height="412" source="x4/22-3.png"/>
+  </tile>
+  <tile id="13">
+   <properties>
+    <property name="size" value="-1,-2,2,2"/>
+   </properties>
+   <image width="508" height="412" source="x4/22-3-1.png"/>
+  </tile>
+  <tile id="14">
+   <properties>
+    <property name="size" value="-1,-2,2,2"/>
+   </properties>
+   <image width="508" height="412" source="x4/22-3-2.png"/>
+  </tile>
+  <tile id="15">
+   <properties>
+    <property name="size" value="-1,-2,2,2"/>
+   </properties>
+   <image width="508" height="412" source="x4/22-4.png"/>
+  </tile>
+  <tile id="16">
+   <properties>
+    <property name="offsetX" type="int" value="-100"/>
+    <property name="offsetY" type="int" value="50"/>
+    <property name="size" value="-1,-1,2,2"/>
+   </properties>
+   <image width="508" height="412" source="x4/22-4-1.png"/>
+  </tile>
+  <tile id="17">
+   <properties>
+    <property name="size" value="-1,-2,2,2"/>
+   </properties>
+   <image width="508" height="412" source="x4/22-4-2.png"/>
+  </tile>
+  <tile id="18">
+   <properties>
+    <property name="size" value="-2,-4,3,4"/>
+   </properties>
+   <image width="762" height="618" source="x4/33-1.png"/>
+  </tile>
+  <tile id="19">
+   <properties>
+    <property name="size" value="-2,-4,3,4"/>
+   </properties>
+   <image width="762" height="618" source="x4/33-1-1.png"/>
+  </tile>
+  <tile id="20">
+   <properties>
+    <property name="size" value="-2,-4,3,4"/>
+   </properties>
+   <image width="762" height="618" source="x4/33-1--1-2.png"/>
+  </tile>
+  <tile id="21">
+   <properties>
+    <property name="size" value="-1,-4,3,4"/>
+   </properties>
+   <image width="762" height="618" source="x4/33-1-2.png"/>
+  </tile>
+  <tile id="22">
+   <properties>
+    <property name="size" value="-1,-4,3,4"/>
+   </properties>
+   <image width="762" height="618" source="x4/33-3.png"/>
+  </tile>
+  <tile id="23">
+   <properties>
+    <property name="size" value="-1,-4,3,4"/>
+   </properties>
+   <image width="762" height="618" source="x4/33-3-1.png"/>
+  </tile>
+  <tile id="24">
+   <properties>
+    <property name="size" value="-1,-3,3,3"/>
+   </properties>
+   <image width="762" height="500" source="x4/changcheng_01.png"/>
+  </tile>
+  <tile id="25">
+   <properties>
+    <property name="size" value="-1,-3,3,3"/>
+   </properties>
+   <image width="762" height="500" source="x4/changcheng_02.png"/>
+  </tile>
+  <tile id="26">
+   <properties>
+    <property name="size" value="-1,-3,3,3"/>
+   </properties>
+   <image width="762" height="500" source="x4/changcheng_03.png"/>
+  </tile>
+  <tile id="27">
+   <properties>
+    <property name="size" value="-1,-3,3,3"/>
+   </properties>
+   <image width="762" height="500" source="x4/changcheng_04.png"/>
+  </tile>
+  <tile id="28">
+   <properties>
+    <property name="size" value="-1,-3,3,3"/>
+   </properties>
+   <image width="762" height="500" source="x4/changcheng_05.png"/>
+  </tile>
+  <tile id="29">
+   <properties>
+    <property name="size" value="-1,-3,3,3"/>
+   </properties>
+   <image width="762" height="500" source="x4/changcheng_06.png"/>
+  </tile>
+  <tile id="30">
+   <properties>
+    <property name="size" value="-1,-3,3,3"/>
+   </properties>
+   <image width="762" height="500" source="x4/changcheng_07.png"/>
+  </tile>
+  <tile id="31">
+   <properties>
+    <property name="size" value="-1,-3,3,3"/>
+   </properties>
+   <image width="762" height="500" source="x4/changcheng_08.png"/>
+  </tile>
+  <tile id="32">
+   <properties>
+    <property name="size" value="-1,-3,3,3"/>
+   </properties>
+   <image width="762" height="500" source="x4/changcheng_09.png"/>
+  </tile>
+  <tile id="33">
+   <properties>
+    <property name="size" value="-1,-3,3,3"/>
+   </properties>
+   <image width="762" height="500" source="x4/changcheng_10.png"/>
+  </tile>
+  <tile id="34">
+   <properties>
+    <property name="size" value="-1,-3,3,3"/>
+   </properties>
+   <image width="762" height="500" source="x4/changcheng_11.png"/>
+  </tile>
+  <tile id="35">
+   <image width="254" height="206" source="x4/changcheng_12.png"/>
+  </tile>
+  <tile id="36">
+   <image width="254" height="206" source="x4/changcheng_13.png"/>
+  </tile>
+  <tile id="37">
+   <image width="254" height="206" source="x4/changcheng_14.png"/>
+  </tile>
+  <tile id="38">
+   <image width="254" height="206" source="x4/changcheng_15.png"/>
+  </tile>
+  <tile id="39">
+   <image width="254" height="206" source="x4/changcheng_16.png"/>
+  </tile>
+  <tile id="40">
+   <image width="254" height="206" source="x4/changcheng_17.png"/>
+  </tile>
+  <tile id="41">
+   <image width="254" height="129" source="x4/dao_1.png"/>
+  </tile>
+  <tile id="42">
+   <image width="254" height="129" source="x4/dao_2.png"/>
+  </tile>
+  <tile id="43">
+   <image width="254" height="129" source="x4/dao_3.png"/>
+  </tile>
+  <tile id="44">
+   <image width="254" height="129" source="x4/dao_4.png"/>
+  </tile>
+  <tile id="45" terrain="1,1,0,0">
+   <image width="254" height="129" source="x4/he_01.png"/>
+  </tile>
+  <tile id="46" terrain="1,1,0,0">
+   <image width="254" height="129" source="x4/he_02.png"/>
+  </tile>
+  <tile id="47" terrain="0,0,1,1">
+   <image width="254" height="129" source="x4/he_03.png"/>
+  </tile>
+  <tile id="48">
+   <properties>
+    <property name="size" value="-1,-3,3,3"/>
+   </properties>
+   <image width="762" height="618" source="x4/he_3ge1.png"/>
+  </tile>
+  <tile id="49">
+   <properties>
+    <property name="size" value="-1,-3,3,3"/>
+   </properties>
+   <image width="762" height="618" source="x4/he_3ge2.png"/>
+  </tile>
+  <tile id="50" terrain="0,0,1,1">
+   <image width="254" height="129" source="x4/he_04.png"/>
+  </tile>
+  <tile id="51" terrain="1,0,1,0">
+   <image width="254" height="129" source="x4/he_05.png"/>
+  </tile>
+  <tile id="52" terrain="1,0,1,0">
+   <image width="254" height="129" source="x4/he_06.png"/>
+  </tile>
+  <tile id="53" terrain="0,1,0,1">
+   <image width="254" height="129" source="x4/he_07.png"/>
+  </tile>
+  <tile id="54" terrain="0,1,0,1">
+   <image width="254" height="129" source="x4/he_08.png"/>
+  </tile>
+  <tile id="55" terrain="1,0,1,1">
+   <image width="254" height="129" source="x4/he_09.png"/>
+  </tile>
+  <tile id="56" terrain="1,1,0,1">
+   <image width="254" height="129" source="x4/he_10.png"/>
+  </tile>
+  <tile id="57" terrain="1,1,1,0">
+   <image width="254" height="129" source="x4/he_11.png"/>
+  </tile>
+  <tile id="58" terrain="1,1,0,0">
+   <image width="254" height="129" source="x4/he_012.png"/>
+  </tile>
+  <tile id="59" terrain="0,1,1,1">
+   <image width="254" height="129" source="x4/he_12.png"/>
+  </tile>
+  <tile id="60" terrain="0,1,1,0">
+   <image width="254" height="129" source="x4/he_13.png"/>
+  </tile>
+  <tile id="61" terrain="1,0,0,1">
+   <image width="254" height="129" source="x4/he_14.png"/>
+  </tile>
+  <tile id="62" terrain="1,0,0,1">
+   <image width="254" height="129" source="x4/he_15.png"/>
+  </tile>
+  <tile id="63" terrain="0,0,1,0">
+   <image width="254" height="129" source="x4/he_16.png"/>
+  </tile>
+  <tile id="64" terrain="0,1,0,0">
+   <image width="254" height="129" source="x4/he_17.png"/>
+  </tile>
+  <tile id="65" terrain="0,0,0,1">
+   <image width="254" height="129" source="x4/he_18.png"/>
+  </tile>
+  <tile id="66" terrain="1,0,0,0">
+   <image width="254" height="129" source="x4/he_19.png"/>
+  </tile>
+  <tile id="67" terrain="0,0,1,1">
+   <image width="254" height="129" source="x4/he_034.png"/>
+  </tile>
+  <tile id="68" terrain="1,0,1,0">
+   <image width="254" height="129" source="x4/he_056.png"/>
+  </tile>
+  <tile id="69" terrain="0,1,0,1">
+   <image width="254" height="129" source="x4/he_078.png"/>
+  </tile>
+  <tile id="70">
+   <image width="254" height="129" source="x4/junfuhe_01.png"/>
+  </tile>
+  <tile id="71">
+   <image width="254" height="129" source="x4/junfuhe_02.png"/>
+  </tile>
+  <tile id="72">
+   <image width="254" height="129" source="x4/junfuhe_03.png"/>
+  </tile>
+  <tile id="73">
+   <image width="254" height="129" source="x4/junfuhe_04.png"/>
+  </tile>
+  <tile id="74">
+   <image width="254" height="129" source="x4/junfuhe_05.png"/>
+  </tile>
+  <tile id="75">
+   <image width="254" height="129" source="x4/junfuhe_06.png"/>
+  </tile>
+  <tile id="76">
+   <image width="254" height="206" source="x4/junfuhe_down.png"/>
+  </tile>
+  <tile id="77">
+   <image width="254" height="206" source="x4/junfuhe_up.png"/>
+  </tile>
+  <tile id="78" terrain="1,1,1,1">
+   <image width="254" height="129" source="x4/kong.png"/>
+  </tile>
+  <tile id="79">
+   <image width="254" height="206" source="x4/qiao_01.png"/>
+  </tile>
+  <tile id="80">
+   <image width="254" height="206" source="x4/qiao_02.png"/>
+  </tile>
+  <tile id="81">
+   <image width="254" height="206" source="x4/qiao_03.png"/>
+  </tile>
+  <tile id="82">
+   <image width="254" height="206" source="x4/qiao_04.png"/>
+  </tile>
+  <tile id="83">
+   <image width="254" height="206" source="x4/qiao_05.png"/>
+  </tile>
+  <tile id="84">
+   <image width="254" height="206" source="x4/qiao_06.png"/>
+  </tile>
+  <tile id="85">
+   <image width="254" height="206" source="x4/shuiba_left.png"/>
+  </tile>
+  <tile id="86">
+   <image width="254" height="206" source="x4/shuiba_right.png"/>
+  </tile>
+  <tile id="87" terrain="0,0,0,0">
+   <image width="254" height="129" source="x4/shuimian.png"/>
+  </tile>
+ </tileset>
+ <tileset firstgid="199" name="l5" tilewidth="254" tileheight="128" spacing="6" tilecount="36" columns="2">
+  <image source="biaoji/biaoji.png" width="520" height="2409"/>
+ </tileset>
+ <tileset firstgid="235" name="biaoji2" tilewidth="254" tileheight="128" tilecount="14" columns="2">
+  <image source="biaoji/biaoji2.png" width="508" height="896"/>
+ </tileset>
+ <tileset firstgid="249" name="5格城" tilewidth="1270" tileheight="640" tilecount="1" columns="1">
+  <tileoffset x="-508" y="256"/>
+  <image source="../../地图编辑/新图/5格城.png" width="1270" height="640"/>
+  <tile id="0">
+   <properties>
+    <property name="size" value="-2,-2,5,5"/>
+   </properties>
+  </tile>
+ </tileset>
+ <tileset firstgid="250" name="城市图2" tilewidth="767" tileheight="618" tilecount="3" columns="0">
+  <tileoffset x="-250" y="128"/>
+  <tile id="0">
+   <properties>
+    <property name="size" value="0,0,3,3"/>
+   </properties>
+   <image width="763" height="439" source="city_2.png"/>
+  </tile>
+  <tile id="1">
+   <properties>
+    <property name="size" value="0,0,3,3"/>
+   </properties>
+   <image width="766" height="614" source="city/xiongnuwangcheng_1.png"/>
+  </tile>
+  <tile id="2">
+   <properties>
+    <property name="size" value="-1,-1,3,3"/>
+   </properties>
+   <image width="767" height="618" source="junfucheng/city_2.png"/>
+  </tile>
+ </tileset>
+ <tileset firstgid="253" name="other" tilewidth="254" tileheight="206" tilecount="4" columns="0">
+  <tile id="0">
+   <image source="C:/Users/Administrator/Desktop/PVE_old/PVE章节/PNGold/lirenyingdi_1.png"/>
+  </tile>
+  <tile id="1">
+   <image source="C:/Users/Administrator/Desktop/PVE_old/PVE章节/PNG_0123/lianmengbingying_1.png"/>
+  </tile>
+  <tile id="2">
+   <image source="C:/Users/Administrator/Desktop/PVE_old/PVE章节/PNG/hanbianmincunluo_1.png"/>
+  </tile>
+  <tile id="3">
+   <image source="C:/Users/Administrator/Desktop/PVE_old/PVE章节/PNG/xingjunyingdi_1.png"/>
+  </tile>
+ </tileset>
+ <tileset firstgid="257" name="pawn" tilewidth="128" tileheight="128" tilecount="1" columns="0">
+  <tileoffset x="70" y="5"/>
+  <tile id="0">
+   <image source="C:/Users/Administrator/Desktop/wolf.png"/>
+  </tile>
+ </tileset>
+ <layer name="di" width="42" height="42">
+  <properties>
+   <property name="size" value="-1,-3,3,3"/>
+   <property name="tileset" value="l1"/>
+   <property name="type" type="int" value="2"/>
+  </properties>
+  <data encoding="base64" compression="zlib">
+   eJzlmEkOwzAIRZ24vf+V24UtUfQZbJOYqAuUKIN5fPBYSylns+NrtV251QTGmV7NrmQtQYzUPJwrcRyAm7eHckz5Rlij9ETvNM5RTe+sTcSaoT9JnJ01S7/nHGeROXcxUs5+zzmzsGp5z6Qp1U/KPWKd4V6Jlc6Z3j6/Q1vE2J+jMXRn3q063TnWS/Mnfcb1jPIVze7NeyTHTFtX1+fMeDHDuXtM5azS/e756Qm+s+TxqXz/GuMTmSk74l/do16tc4b1bAZNon3dqanlZ2WdpVlf398R36iWp2ARHFF9hnJlOVPQOK39sZfd+nZFC7TXRe1p77lfT5yz+2p0tlDL71oTXa09fUQdWTkeOQel36F19JvZaB15TeM8mm/KR/epiNGjs6fW+nvUz7i+0pmJFKfmb1ZD6V/tTMfTh7y8/J7qZo1VI2PZqnlik3gsztn8oTZma/ZO62wfdvERfQ==
+  </data>
+ </layer>
+ <layer name="random" width="42" height="42">
+  <properties>
+   <property name="tileset" value="l2"/>
+   <property name="type" type="int" value="5"/>
+  </properties>
+  <data encoding="base64" compression="zlib">
+   eJy9WWtTwjAQzGfHAiLiA4T6//+k3pgb1+09kmjZGSZtnpfN3SYppSyxr+nBKMvw0VF3C8/PX78pqf/Y0OdM76/0/lZ/gmNNeVyx6/7rd6l2aZ0d1dF6iD2lGbBPGWNj5Fs2ItQGsfdY2z7XfHk+l6X9jH2xbVbO3x27EJugTNo9VPtw3adqn85Byu4CO54o37IZudrR87bkUP4iWHN9otTyV8yTPjKfV6jdPW2moK6ud0tMtQL5PZaf+PKgHGsb9i1e6wwS1y/lmyPpc6rptZZfi73+Oxr7TOXsT+LHmc61aOcWUrXTsk/mw1xMZRlHmm6qjQiLy4jfbfnta8rPptgawJxpfFi6oxpwruljibVDwHyK77L9L5Qy0I6ZynSfsDhVP30rS6D+WHzuS6yZPFYGHYP5wvfZaHMo/XuTgGOY/VPLL0beqSz3X8EZbPDWCoFrj3o1B23QzkyHPMiclNcWznr1yoPlZwKMQYFyd4U2p4HxZni2dCvaCx/Kj75mPIuPK4+oFzi+1wdy68WTnlGsPi5GHkI5Vf9SHr12yj37haf7x8SGiGNrPqrvp6Rfz5cySDvlk7U9g3DIcd+qby3wfPzdyb8FZkhH9aYFlp6OwPOLlvOxgs8Yt4L6Y+RTkS/0+rMHWYtIb3tiT2JYdBTn5J0FGVd6z7SuFSPrK5xkZzmBd+8Y2b8UosneujNHHtaMXd4rxF7lIbuHtcZ9q2/36MjcWH+GZ2sfXJPbXkTnuSx+Wjn2zrbMJdrScldgjOqZ9W3sL+i9Y45i9JvFSLs17F8L3tnzv7/z8Di8T/TcLyP8ZS8QZLHEnFjfGLDMizPkN7PZKkedsO4BbNetfLLXZ0b+L/DGwHye7yEoa4G08e5tkYaN+vXJ6Tf7tmIBv+Mw2F8FFr8RZxY32J+FaN84OG1H11DrZr7Wchcc8de1Y+8TXi8bIA==
+  </data>
+ </layer>
+ <layer name="res" width="42" height="42">
+  <properties>
+   <property name="tileset" value="l3"/>
+   <property name="type" type="int" value="3"/>
+  </properties>
+  <data encoding="base64" compression="zlib">
+   eJzt1DEKgDAQBMB8xw/Ym14M/v8xORB7IZAjOANbbbPVlgIAwCxH5IqckS15C6ygZg/46B7sZ2mDPY/3x1eyZw8AAICf69ybA18=
+  </data>
+ </layer>
+ <layer name="mountain" width="42" height="42">
+  <properties>
+   <property name="tileset" value="l4"/>
+   <property name="type" type="int" value="9"/>
+  </properties>
+  <data encoding="base64" compression="zlib">
+   eJzdV/1OAjEM3yP7h6CiEUQwauLHAwgBP07QgBLfgedyTdqwNN2uu+3uCL+k2e6ua3/rtq5nTH0orHxb+azRRy68Wnmvwe5xRlsLKxtTD0/CWeJ44vhr5cvKkUdngtLG3uAcARLPPytblB+Txvc6A8dTbEdMd2N2PLdsTAxOPO/7gTGcYwhrI3O80BJMAPh2zw2sd5fpzLAtUL9qHHtWOtiH9lwxhny/OTw1cQGunGNovQi+tebw2dLkS75PCTnWG+I6xj6tI9kdom9Y49i8rokdx5Xw7ibSRpt35SBCF+JT5a4cRuqnANYd8ufKyOe3bI15XjhUaO+kUCybwECpl1rDNbVHgedH4DvEe2n8uUDan1RT5UQonlSfxNRGbk1TBsiffJ5Uo4GdF7OrIX01setvirJGvpxrXxij2e9d5NV32gV+Iztz9A0t5Pglfnf5c39Ug0hcYzkSJuh7if0Vvp8Kdgp8b5A3ieTP5Tox4XkRqDZw7246f268eN2WCpoX2ac2Jo6zjHxi4auptKjrP1eC9h7lc2riP7cMlE99Oa3qGcwF4gdnWMoTI9M+R8P88zwBfOHcwxykHNQEqHbn/ilPUM5us/7RQvoX3FfAXZmay1LQKVfZG0j/ly4uG2FxuOg5fR7r28y+tPYeFDpPEX4fnf5zBnsajMtV1H4lzmXnQgOeB/jzXaL9Hnv22btP9ONDlRhxzr79kgLuIxU587kvZrk5S/gHfRe2kw==
+  </data>
+ </layer>
+ <layer name="biaoji" width="42" height="42">
+  <properties>
+   <property name="tileset" value="l5"/>
+   <property name="type" type="int" value="7"/>
+  </properties>
+  <data encoding="base64" compression="zlib">
+   eJztwTEBAAAAwqD1T20KP6AAAAAAAACAlwEbkAAB
+  </data>
+ </layer>
+ <layer name="citysign" width="42" height="42">
+  <properties>
+   <property name="tileset" value="biaoji2"/>
+   <property name="type" type="int" value="6"/>
+  </properties>
+  <data encoding="base64" compression="zlib">
+   eJztwTEBAAAAwqD1T20KP6AAAAAAAACAlwEbkAAB
+  </data>
+ </layer>
+ <layer name="联盟主城" width="42" height="42">
+  <properties>
+   <property name="tileset" value="城市图2,联盟范围,l5"/>
+   <property name="type" type="int" value="4"/>
+  </properties>
+  <data encoding="base64" compression="zlib">
+   eJztzjENAAAIA7D518yBiSVwtAqaAAAAAPwz1wEAAChZzLYA/Q==
+  </data>
+ </layer>
+ <layer name="势力范围" width="42" height="42">
+  <properties>
+   <property name="type" type="int" value="10"/>
+  </properties>
+  <data encoding="base64" compression="zlib">
+   eJzt1kEOABAMRFH3Pxm3spUu0KiYyn/J7H8sUAoAAHm0jSmgM9ZPnQrN3rZXrXTGytJprTro9KHznOcuVzlPqw57/SbN2E5V1Qx7VP5FK3TGytIJAMANHVdtZgk=
+  </data>
+ </layer>
+ <layer name="出生点" width="42" height="42">
+  <properties>
+   <property name="type" type="int" value="11"/>
+  </properties>
+  <data encoding="base64" compression="zlib">
+   eJztzjENAAAIA7D5N4YtTCyBo1XQBAAAAOCfuQ4AAEDJAo0MAMg=
+  </data>
+ </layer>
+ <layer name="城" width="42" height="42">
+  <properties>
+   <property name="tileset" value="城市图"/>
+   <property name="type" type="int" value="4"/>
+  </properties>
+  <data encoding="base64" compression="zlib">
+   eJztwTEBAAAAwqD1T20KP6AAAAAAAACAlwEbkAAB
+  </data>
+ </layer>
+ <layer name="山洞" width="42" height="42">
+  <data encoding="base64" compression="zlib">
+   eJztwTEBAAAAwqD1T20KP6AAAAAAAACAlwEbkAAB
+  </data>
+ </layer>
+ <layer name="pawn" width="42" height="42" visible="0">
+  <properties>
+   <property name="tileset" value="pawn"/>
+  </properties>
+  <data encoding="base64" compression="zlib">
+   eJztwTEBAAAAwqD1T20KP6AAAAAAAACAlwEbkAAB
+  </data>
+ </layer>
+ <layer name="box" width="42" height="42" visible="0">
+  <properties>
+   <property name="tileset" value="box"/>
+  </properties>
+  <data encoding="base64" compression="zlib">
+   eJztwTEBAAAAwqD1T20KP6AAAAAAAACAlwEbkAAB
+  </data>
+ </layer>
+ <layer name="建筑" width="42" height="42" visible="0">
+  <data encoding="base64" compression="zlib">
+   eJztwTEBAAAAwqD1T20KP6AAAAAAAACAlwEbkAAB
+  </data>
+ </layer>
+<eventtriggers version="1.0">
+        <eventtriggergroup id="1" name="响应集结" desc="">
+            <eventtrigger id="1" name="响应集结" desc="条件:&#10;{发布[集结时间:1]分钟后对目的地[坐标:220022]的集结}&#10;结果:&#10;1.位于[坐标:220024]位置的[NPC的ID:220159],[NPC部队数量:1]NPC队伍响应集结&#10; ">
+                <condition id="1" name="条件" logictype="1" desc="{发布[集结时间:1]分钟后对目的地[坐标:220022]的集结}">
+                    <action id="30" name="项目" templateid="39" templatename="发布集结" desc="发布[集结时间:1]分钟后对目的地[坐标:220022]的集结">
+                        <params name="minute" value="1"/>
+                        <params name="targetCoordId" value="220022"/>
+                    </action>
+                </condition>
+                <result id="1" name="结果" desc="1.位于[坐标:220024]位置的[NPC的ID:220159],[NPC部队数量:1]NPC队伍响应集结&#10;">
+                    <action id="29" name="项目" templateid="40" templatename="响应集结" desc="位于[坐标:220024]位置的[NPC的ID:220159],[NPC部队数量:1]NPC队伍响应集结">
+                        <params name="coordIds" value="220024"/>
+                        <params name="npcId" value="220159"/>
+                        <params name="num" value="1"/>
+                    </action>
+                </result>
+            </eventtrigger>
+        </eventtriggergroup>
+        <eventtriggergroup id="2" name="伊稚斜逃跑" desc="">
+            <eventtrigger id="2" name="逃跑" desc="条件:&#10;{[新手步骤:100110]}&#10;结果:&#10;1.[数量:1],[npcId:220169]的NPC从[坐标:150028]位置向[目标坐标:140014]位置出兵，速度[速度:175]&#10; ">
+                <condition id="2" name="条件" logictype="1" desc="{[新手步骤:100110]}">
+                    <action id="6" name="项目" templateid="41" templatename="完成新手" desc="[新手步骤:100110]">
+                        <params name="noviceId" value="100110"/>
+                    </action>
+                </condition>
+                <result id="2" name="结果" desc="1.[数量:1],[npcId:220169]的NPC从[坐标:150028]位置向[目标坐标:140014]位置出兵，速度[速度:175]&#10;">
+                    <action id="31" name="项目" templateid="5" templatename="NPC出兵驻扎" desc="[数量:1],[npcId:220169]的NPC从[坐标:150028]位置向[目标坐标:140014]位置出兵，速度[速度:175]">
+                        <params name="coordId" value="150028"/>
+                        <params name="npcId" value="220169"/>
+                        <params name="num" value="1"/>
+                        <params name="speed" value="175"/>
+                        <params name="targetCoord" value="140014"/>
+                    </action>
+                </result>
+            </eventtrigger>
+        </eventtriggergroup>
+        <eventtriggergroup id="3" name="白起返回" desc="">
+            <eventtrigger id="3" name="白起返回" desc="条件:&#10;{[新手步骤:102602]}&#10;结果:&#10;1.[数量:1],[npcId:220159]的NPC从[坐标:220023]位置向[目标坐标:190025]位置出兵，速度[速度:0]&#10; ">
+                <condition id="3" name="条件" logictype="1" desc="{[新手步骤:102602]}">
+                    <action id="32" name="项目" templateid="41" templatename="完成新手" desc="[新手步骤:102602]">
+                        <params name="noviceId" value="102602"/>
+                    </action>
+                </condition>
+                <result id="3" name="结果" desc="1.[数量:1],[npcId:220159]的NPC从[坐标:220023]位置向[目标坐标:190025]位置出兵，速度[速度:0]&#10;">
+                    <action id="33" name="项目" templateid="5" templatename="NPC出兵驻扎" desc="[数量:1],[npcId:220159]的NPC从[坐标:220023]位置向[目标坐标:190025]位置出兵，速度[速度:0]">
+                        <params name="coordId" value="220023"/>
+                        <params name="npcId" value="220159"/>
+                        <params name="num" value="1"/>
+                        <params name="speed" value="0"/>
+                        <params name="targetCoord" value="190025"/>
+                    </action>
+                </result>
+            </eventtrigger>
+        </eventtriggergroup>
+        <eventtriggergroup id="4" name="打地战利品" desc="">
+            <eventtrigger id="4" name="战利品" desc="条件:&#10;{位于[坐标组:220022]位置的建筑物[没有被摧毁:否]}&#10;结果:&#10;1.按照[掉落配置:826028]掉落奖励&#10; ">
+                <condition id="4" name="条件" logictype="1" desc="{位于[坐标组:220022]位置的建筑物[没有被摧毁:否]}">
+                    <action id="34" name="项目" templateid="3" templatename="摧毁建筑" desc="位于[坐标组:220022]位置的建筑物[没有被摧毁:否]">
+                        <params name="coordIds" value="220022"/>
+                        <params name="not" value="0"/>
+                    </action>
+                </condition>
+                <result id="4" name="结果" desc="1.按照[掉落配置:826028]掉落奖励&#10;">
+                    <action id="35" name="项目" templateid="42" templatename="掉落战利品" desc="按照[掉落配置:826028]掉落奖励">
+                        <params name="dropId" value="826028"/>
+                    </action>
+                </result>
+            </eventtrigger>
+        </eventtriggergroup>
+        <eventtriggergroup id="5" name="结束副本" desc="">
+            <eventtrigger id="5" name="结束副本" desc="条件:&#10;{位于[坐标组:140014]位置的建筑物[没有被摧毁:否]}&#10;结果:&#10; ">
+                <condition id="5" name="条件" logictype="1" desc="{位于[坐标组:140014]位置的建筑物[没有被摧毁:否]}">
+                    <action id="36" name="项目" templateid="3" templatename="摧毁建筑" desc="位于[坐标组:140014]位置的建筑物[没有被摧毁:否]">
+                        <params name="coordIds" value="140014"/>
+                        <params name="not" value="0"/>
+                    </action>
+                </condition>
+                <result id="5" name="结果" desc="">
+                    <action id="51" name="项目" templateid="0" templatename="" desc=""/>
+                </result>
+            </eventtrigger>
+        </eventtriggergroup>
+        <eventtriggergroup id="6" name="刷怪1" desc="">
+            <eventtrigger id="6" name="刷怪1" desc="条件:&#10;{完成任务[任务ID:1017]}&#10;结果:&#10;1.[野怪:20001]刷新在[坐标组:160024]位置&#10; ">
+                <condition id="6" name="条件" logictype="1" desc="{完成任务[任务ID:1017]}">
+                    <action id="37" name="项目" templateid="45" templatename="完成任务" desc="完成任务[任务ID:1017]">
+                        <params name="questId" value="1017"/>
+                    </action>
+                </condition>
+                <result id="6" name="结果" desc="1.[野怪:20001]刷新在[坐标组:160024]位置&#10;">
+                    <action id="38" name="项目" templateid="14" templatename="野怪刷新" desc="[野怪:20001]刷新在[坐标组:160024]位置">
+                        <params name="coordIds" value="160024"/>
+                        <params name="monsterIds" value="20001"/>
+                    </action>
+                </result>
+            </eventtrigger>
+        </eventtriggergroup>
+        <eventtriggergroup id="7" name="刷怪2" desc="">
+            <eventtrigger id="9" name="刷怪2" desc="条件:&#10;{完成任务[任务ID:1507]}&#10;结果:&#10;1.[野怪:20001]刷新在[坐标组:140023]位置&#10; ">
+                <condition id="9" name="条件" logictype="1" desc="{完成任务[任务ID:1507]}">
+                    <action id="39" name="项目" templateid="45" templatename="完成任务" desc="完成任务[任务ID:1507]">
+                        <params name="questId" value="1507"/>
+                    </action>
+                </condition>
+                <result id="9" name="结果" desc="1.[野怪:20001]刷新在[坐标组:140023]位置&#10;">
+                    <action id="41" name="项目" templateid="14" templatename="野怪刷新" desc="[野怪:20001]刷新在[坐标组:140023]位置">
+                        <params name="coordIds" value="140023"/>
+                        <params name="monsterIds" value="20001"/>
+                    </action>
+                </result>
+            </eventtrigger>
+        </eventtriggergroup>
+        <eventtriggergroup id="8" name="刷怪3" desc="">
+            <eventtrigger id="10" name="刷怪3" desc="条件:&#10;{完成任务[任务ID:1520]}&#10;结果:&#10;1.[野怪:20001]刷新在[坐标组:220015]位置&#10; ">
+                <condition id="10" name="条件" logictype="1" desc="{完成任务[任务ID:1520]}">
+                    <action id="42" name="项目" templateid="45" templatename="完成任务" desc="完成任务[任务ID:1520]">
+                        <params name="questId" value="1520"/>
+                    </action>
+                </condition>
+                <result id="10" name="结果" desc="1.[野怪:20001]刷新在[坐标组:220015]位置&#10;">
+                    <action id="44" name="项目" templateid="14" templatename="野怪刷新" desc="[野怪:20001]刷新在[坐标组:220015]位置">
+                        <params name="coordIds" value="220015"/>
+                        <params name="monsterIds" value="20001"/>
+                    </action>
+                </result>
+            </eventtrigger>
+        </eventtriggergroup>
+        <eventtriggergroup id="9" name="刷怪4" desc="">
+            <eventtrigger id="19" name="刷怪4" desc="条件:&#10;{完成任务[任务ID:1526]}&#10;结果:&#10;1.[野怪:20001]刷新在[坐标组:210014]位置&#10; ">
+                <condition id="12" name="条件" logictype="1" desc="{完成任务[任务ID:1526]}">
+                    <action id="47" name="项目" templateid="45" templatename="完成任务" desc="完成任务[任务ID:1526]">
+                        <params name="questId" value="1526"/>
+                    </action>
+                </condition>
+                <result id="19" name="结果" desc="1.[野怪:20001]刷新在[坐标组:210014]位置&#10;">
+                    <action id="48" name="项目" templateid="14" templatename="野怪刷新" desc="[野怪:20001]刷新在[坐标组:210014]位置">
+                        <params name="coordIds" value="210014"/>
+                        <params name="monsterIds" value="20001"/>
+                    </action>
+                </result>
+            </eventtrigger>
+        </eventtriggergroup>
+        <eventtriggergroup id="10" name="初始化副本" desc="">
+            <eventtrigger id="7" name="刷出友军和敌军和匈奴建筑" desc="条件:&#10;{进入副本}&#10;结果:&#10;1.生成[生成坐标:170027]位置，攻城值[攻城值:1000]，显示坐骑[坐骑形象:0]，名称为[NPC名字:霍去病]的NPC队伍[NPC的ID:220109]，所属[所属阵营:1]阵营&#10;2.生成[生成坐标:180027]位置，攻城值[攻城值:1000]，显示坐骑[坐骑形象:0]，名称为[NPC名字:汉武帝]的NPC队伍[NPC的ID:220119]，所属[所属阵营:1]阵营&#10;3.生成[生成坐标:170026]位置，攻城值[攻城值:1000]，显示坐骑[坐骑形象:0]，名称为[NPC名字:秦始皇]的NPC队伍[NPC的ID:220129]，所属[所属阵营:1]阵营&#10;4.生成[生成坐标:170025]位置，攻城值[攻城值:1000]，显示坐骑[坐骑形象:0]，名称为[NPC名字:李斯]的NPC队伍[NPC的ID:220139]，所属[所属阵营:1]阵营&#10;5.生成[生成坐标:190027]位置，攻城值[攻城值:1000]，显示坐骑[坐骑形象:0]，名称为[NPC名字:李广]的NPC队伍[NPC的ID:220149]，所属[所属阵营:1]阵营&#10;6.生成[生成坐标:150028]位置，攻城值[攻城值:1000]，显示坐骑[坐骑形象:0]，名称为[NPC名字:伊稚斜]的NPC队伍[NPC的ID:220169]，所属[所属阵营:2]阵营&#10;7.生成[生成坐标:140028]位置，攻城值[攻城值:1000]，显示坐骑[坐骑形象:0]，名称为[NPC名字:匈奴骑兵]的NPC队伍[NPC的ID:220179]，所属[所属阵营:2]阵营&#10;8.生成[生成坐标:150029]位置，攻城值[攻城值:1000]，显示坐骑[坐骑形象:0]，名称为[NPC名字:匈奴骑兵]的NPC队伍[NPC的ID:220179]，所属[所属阵营:2]阵营&#10;9.生成[生成坐标:130028]位置，攻城值[攻城值:1000]，显示坐骑[坐骑形象:0]，名称为[NPC名字:匈奴骑兵]的NPC队伍[NPC的ID:220179]，所属[所属阵营:2]阵营&#10;10.生成[生成坐标:140029]位置，攻城值[攻城值:1000]，显示坐骑[坐骑形象:0]，名称为[NPC名字:匈奴骑兵]的NPC队伍[NPC的ID:220179]，所属[所属阵营:2]阵营&#10;11.生成[生成坐标:150030]位置，攻城值[攻城值:1000]，显示坐骑[坐骑形象:0]，名称为[NPC名字:匈奴骑兵]的NPC队伍[NPC的ID:220179]，所属[所属阵营:2]阵营&#10;12.生成[生成坐标:120028]位置，攻城值[攻城值:1000]，显示坐骑[坐骑形象:0]，名称为[NPC名字:匈奴骑兵]的NPC队伍[NPC的ID:220179]，所属[所属阵营:2]阵营&#10;13.生成[生成坐标:130029]位置，攻城值[攻城值:1000]，显示坐骑[坐骑形象:0]，名称为[NPC名字:匈奴骑兵]的NPC队伍[NPC的ID:220179]，所属[所属阵营:2]阵营&#10;14.生成[生成坐标:140030]位置，攻城值[攻城值:1000]，显示坐骑[坐骑形象:0]，名称为[NPC名字:匈奴骑兵]的NPC队伍[NPC的ID:220179]，所属[所属阵营:2]阵营&#10;15.生成[生成坐标:150031]位置，攻城值[攻城值:1000]，显示坐骑[坐骑形象:0]，名称为[NPC名字:匈奴骑兵]的NPC队伍[NPC的ID:220179]，所属[所属阵营:2]阵营&#10;16.生成[生成坐标:120029]位置，攻城值[攻城值:1000]，显示坐骑[坐骑形象:0]，名称为[NPC名字:匈奴骑兵]的NPC队伍[NPC的ID:220179]，所属[所属阵营:2]阵营&#10;17.生成[生成坐标:130030]位置，攻城值[攻城值:1000]，显示坐骑[坐骑形象:0]，名称为[NPC名字:匈奴骑兵]的NPC队伍[NPC的ID:220179]，所属[所属阵营:2]阵营&#10;18.生成[生成坐标:140031]位置，攻城值[攻城值:1000]，显示坐骑[坐骑形象:0]，名称为[NPC名字:匈奴骑兵]的NPC队伍[NPC的ID:220179]，所属[所属阵营:2]阵营&#10;19.生成[生成坐标:120030]位置，攻城值[攻城值:1000]，显示坐骑[坐骑形象:0]，名称为[NPC名字:匈奴骑兵]的NPC队伍[NPC的ID:220179]，所属[所属阵营:2]阵营&#10;20.生成[生成坐标:130031]位置，攻城值[攻城值:1000]，显示坐骑[坐骑形象:0]，名称为[NPC名字:匈奴骑兵]的NPC队伍[NPC的ID:220179]，所属[所属阵营:2]阵营&#10;21.生成[生成坐标:120031]位置，攻城值[攻城值:1000]，显示坐骑[坐骑形象:0]，名称为[NPC名字:匈奴骑兵]的NPC队伍[NPC的ID:220179]，所属[所属阵营:2]阵营&#10;22.[归属势力:2],[种类:32],[建筑名:匈奴仓库]的建筑在[坐标:110023]位置生成&#10;23.[归属势力:2],[种类:33],[建筑名:匈奴据点]的建筑在[坐标:220022]位置生成&#10; ">
+                <condition id="7" name="条件" logictype="1" desc="{进入副本}">
+                    <action id="40" name="项目" templateid="1" templatename="进入副本" desc="进入副本"/>
+                </condition>
+                <result id="7" name="结果" desc="1.生成[生成坐标:170027]位置，攻城值[攻城值:1000]，显示坐骑[坐骑形象:0]，名称为[NPC名字:霍去病]的NPC队伍[NPC的ID:220109]，所属[所属阵营:1]阵营&#10;2.生成[生成坐标:180027]位置，攻城值[攻城值:1000]，显示坐骑[坐骑形象:0]，名称为[NPC名字:汉武帝]的NPC队伍[NPC的ID:220119]，所属[所属阵营:1]阵营&#10;3.生成[生成坐标:170026]位置，攻城值[攻城值:1000]，显示坐骑[坐骑形象:0]，名称为[NPC名字:秦始皇]的NPC队伍[NPC的ID:220129]，所属[所属阵营:1]阵营&#10;4.生成[生成坐标:170025]位置，攻城值[攻城值:1000]，显示坐骑[坐骑形象:0]，名称为[NPC名字:李斯]的NPC队伍[NPC的ID:220139]，所属[所属阵营:1]阵营&#10;5.生成[生成坐标:190027]位置，攻城值[攻城值:1000]，显示坐骑[坐骑形象:0]，名称为[NPC名字:李广]的NPC队伍[NPC的ID:220149]，所属[所属阵营:1]阵营&#10;6.生成[生成坐标:150028]位置，攻城值[攻城值:1000]，显示坐骑[坐骑形象:0]，名称为[NPC名字:伊稚斜]的NPC队伍[NPC的ID:220169]，所属[所属阵营:2]阵营&#10;7.生成[生成坐标:140028]位置，攻城值[攻城值:1000]，显示坐骑[坐骑形象:0]，名称为[NPC名字:匈奴骑兵]的NPC队伍[NPC的ID:220179]，所属[所属阵营:2]阵营&#10;8.生成[生成坐标:150029]位置，攻城值[攻城值:1000]，显示坐骑[坐骑形象:0]，名称为[NPC名字:匈奴骑兵]的NPC队伍[NPC的ID:220179]，所属[所属阵营:2]阵营&#10;9.生成[生成坐标:130028]位置，攻城值[攻城值:1000]，显示坐骑[坐骑形象:0]，名称为[NPC名字:匈奴骑兵]的NPC队伍[NPC的ID:220179]，所属[所属阵营:2]阵营&#10;10.生成[生成坐标:140029]位置，攻城值[攻城值:1000]，显示坐骑[坐骑形象:0]，名称为[NPC名字:匈奴骑兵]的NPC队伍[NPC的ID:220179]，所属[所属阵营:2]阵营&#10;11.生成[生成坐标:150030]位置，攻城值[攻城值:1000]，显示坐骑[坐骑形象:0]，名称为[NPC名字:匈奴骑兵]的NPC队伍[NPC的ID:220179]，所属[所属阵营:2]阵营&#10;12.生成[生成坐标:120028]位置，攻城值[攻城值:1000]，显示坐骑[坐骑形象:0]，名称为[NPC名字:匈奴骑兵]的NPC队伍[NPC的ID:220179]，所属[所属阵营:2]阵营&#10;13.生成[生成坐标:130029]位置，攻城值[攻城值:1000]，显示坐骑[坐骑形象:0]，名称为[NPC名字:匈奴骑兵]的NPC队伍[NPC的ID:220179]，所属[所属阵营:2]阵营&#10;14.生成[生成坐标:140030]位置，攻城值[攻城值:1000]，显示坐骑[坐骑形象:0]，名称为[NPC名字:匈奴骑兵]的NPC队伍[NPC的ID:220179]，所属[所属阵营:2]阵营&#10;15.生成[生成坐标:150031]位置，攻城值[攻城值:1000]，显示坐骑[坐骑形象:0]，名称为[NPC名字:匈奴骑兵]的NPC队伍[NPC的ID:220179]，所属[所属阵营:2]阵营&#10;16.生成[生成坐标:120029]位置，攻城值[攻城值:1000]，显示坐骑[坐骑形象:0]，名称为[NPC名字:匈奴骑兵]的NPC队伍[NPC的ID:220179]，所属[所属阵营:2]阵营&#10;17.生成[生成坐标:130030]位置，攻城值[攻城值:1000]，显示坐骑[坐骑形象:0]，名称为[NPC名字:匈奴骑兵]的NPC队伍[NPC的ID:220179]，所属[所属阵营:2]阵营&#10;18.生成[生成坐标:140031]位置，攻城值[攻城值:1000]，显示坐骑[坐骑形象:0]，名称为[NPC名字:匈奴骑兵]的NPC队伍[NPC的ID:220179]，所属[所属阵营:2]阵营&#10;19.生成[生成坐标:120030]位置，攻城值[攻城值:1000]，显示坐骑[坐骑形象:0]，名称为[NPC名字:匈奴骑兵]的NPC队伍[NPC的ID:220179]，所属[所属阵营:2]阵营&#10;20.生成[生成坐标:130031]位置，攻城值[攻城值:1000]，显示坐骑[坐骑形象:0]，名称为[NPC名字:匈奴骑兵]的NPC队伍[NPC的ID:220179]，所属[所属阵营:2]阵营&#10;21.生成[生成坐标:120031]位置，攻城值[攻城值:1000]，显示坐骑[坐骑形象:0]，名称为[NPC名字:匈奴骑兵]的NPC队伍[NPC的ID:220179]，所属[所属阵营:2]阵营&#10;22.[归属势力:2],[种类:32],[建筑名:匈奴仓库]的建筑在[坐标:110023]位置生成&#10;23.[归属势力:2],[种类:33],[建筑名:匈奴据点]的建筑在[坐标:220022]位置生成&#10;">
+                    <action id="43" name="项目" templateid="43" templatename="生成空地NPC队伍并显示形象" desc="生成[生成坐标:170027]位置，攻城值[攻城值:1000]，显示坐骑[坐骑形象:0]，名称为[NPC名字:霍去病]的NPC队伍[NPC的ID:220109]，所属[所属阵营:1]阵营">
+                        <params name="castleATK" value="1000"/>
+                        <params name="castleAtk" value="1000"/>
+                        <params name="coordId" value="170027"/>
+                        <params name="mountID" value="0"/>
+                        <params name="mountId" value="0"/>
+                        <params name="name" value="霍去病"/>
+                        <params name="npcId" value="220109"/>
+                        <params name="party" value="1"/>
+                    </action>
+                    <action id="4" name="项目" templateid="43" templatename="生成空地NPC队伍并显示形象" desc="生成[生成坐标:180027]位置，攻城值[攻城值:1000]，显示坐骑[坐骑形象:0]，名称为[NPC名字:汉武帝]的NPC队伍[NPC的ID:220119]，所属[所属阵营:1]阵营">
+                        <params name="castleATK" value="1000"/>
+                        <params name="castleAtk" value="1000"/>
+                        <params name="coordId" value="180027"/>
+                        <params name="mountID" value="0"/>
+                        <params name="mountId" value="0"/>
+                        <params name="name" value="汉武帝"/>
+                        <params name="npcId" value="220119"/>
+                        <params name="party" value="1"/>
+                    </action>
+                    <action id="3" name="项目" templateid="43" templatename="生成空地NPC队伍并显示形象" desc="生成[生成坐标:170026]位置，攻城值[攻城值:1000]，显示坐骑[坐骑形象:0]，名称为[NPC名字:秦始皇]的NPC队伍[NPC的ID:220129]，所属[所属阵营:1]阵营">
+                        <params name="castleATK" value="1000"/>
+                        <params name="castleAtk" value="1000"/>
+                        <params name="coordId" value="170026"/>
+                        <params name="mountID" value="0"/>
+                        <params name="mountId" value="0"/>
+                        <params name="name" value="秦始皇"/>
+                        <params name="npcId" value="220129"/>
+                        <params name="party" value="1"/>
+                    </action>
+                    <action id="5" name="项目" templateid="43" templatename="生成空地NPC队伍并显示形象" desc="生成[生成坐标:170025]位置，攻城值[攻城值:1000]，显示坐骑[坐骑形象:0]，名称为[NPC名字:李斯]的NPC队伍[NPC的ID:220139]，所属[所属阵营:1]阵营">
+                        <params name="castleATK" value="1000"/>
+                        <params name="castleAtk" value="1000"/>
+                        <params name="coordId" value="170025"/>
+                        <params name="mountID" value="0"/>
+                        <params name="mountId" value="0"/>
+                        <params name="name" value="李斯"/>
+                        <params name="npcId" value="220139"/>
+                        <params name="party" value="1"/>
+                    </action>
+                    <action id="2" name="项目" templateid="43" templatename="生成空地NPC队伍并显示形象" desc="生成[生成坐标:190027]位置，攻城值[攻城值:1000]，显示坐骑[坐骑形象:0]，名称为[NPC名字:李广]的NPC队伍[NPC的ID:220149]，所属[所属阵营:1]阵营">
+                        <params name="castleATK" value="1000"/>
+                        <params name="castleAtk" value="1000"/>
+                        <params name="coordId" value="190027"/>
+                        <params name="mountID" value="0"/>
+                        <params name="mountId" value="0"/>
+                        <params name="name" value="李广"/>
+                        <params name="npcId" value="220149"/>
+                        <params name="party" value="1"/>
+                    </action>
+                    <action id="7" name="项目" templateid="43" templatename="生成空地NPC队伍并显示形象" desc="生成[生成坐标:150028]位置，攻城值[攻城值:1000]，显示坐骑[坐骑形象:0]，名称为[NPC名字:伊稚斜]的NPC队伍[NPC的ID:220169]，所属[所属阵营:2]阵营">
+                        <params name="castleATK" value="1000"/>
+                        <params name="castleAtk" value="1000"/>
+                        <params name="coordId" value="150028"/>
+                        <params name="mountID" value="0"/>
+                        <params name="mountId" value="0"/>
+                        <params name="name" value="伊稚斜"/>
+                        <params name="npcId" value="220169"/>
+                        <params name="party" value="2"/>
+                    </action>
+                    <action id="8" name="项目" templateid="43" templatename="生成空地NPC队伍并显示形象" desc="生成[生成坐标:140028]位置，攻城值[攻城值:1000]，显示坐骑[坐骑形象:0]，名称为[NPC名字:匈奴骑兵]的NPC队伍[NPC的ID:220179]，所属[所属阵营:2]阵营">
+                        <params name="castleATK" value="1000"/>
+                        <params name="castleAtk" value="1000"/>
+                        <params name="coordId" value="140028"/>
+                        <params name="mountID" value="0"/>
+                        <params name="mountId" value="0"/>
+                        <params name="name" value="匈奴骑兵"/>
+                        <params name="npcId" value="220179"/>
+                        <params name="party" value="2"/>
+                    </action>
+                    <action id="9" name="项目" templateid="43" templatename="生成空地NPC队伍并显示形象" desc="生成[生成坐标:150029]位置，攻城值[攻城值:1000]，显示坐骑[坐骑形象:0]，名称为[NPC名字:匈奴骑兵]的NPC队伍[NPC的ID:220179]，所属[所属阵营:2]阵营">
+                        <params name="castleAtk" value="1000"/>
+                        <params name="coordId" value="150029"/>
+                        <params name="mountId" value="0"/>
+                        <params name="name" value="匈奴骑兵"/>
+                        <params name="npcId" value="220179"/>
+                        <params name="party" value="2"/>
+                    </action>
+                    <action id="10" name="项目" templateid="43" templatename="生成空地NPC队伍并显示形象" desc="生成[生成坐标:130028]位置，攻城值[攻城值:1000]，显示坐骑[坐骑形象:0]，名称为[NPC名字:匈奴骑兵]的NPC队伍[NPC的ID:220179]，所属[所属阵营:2]阵营">
+                        <params name="castleAtk" value="1000"/>
+                        <params name="coordId" value="130028"/>
+                        <params name="mountId" value="0"/>
+                        <params name="name" value="匈奴骑兵"/>
+                        <params name="npcId" value="220179"/>
+                        <params name="party" value="2"/>
+                    </action>
+                    <action id="11" name="项目" templateid="43" templatename="生成空地NPC队伍并显示形象" desc="生成[生成坐标:140029]位置，攻城值[攻城值:1000]，显示坐骑[坐骑形象:0]，名称为[NPC名字:匈奴骑兵]的NPC队伍[NPC的ID:220179]，所属[所属阵营:2]阵营">
+                        <params name="castleAtk" value="1000"/>
+                        <params name="coordId" value="140029"/>
+                        <params name="mountId" value="0"/>
+                        <params name="name" value="匈奴骑兵"/>
+                        <params name="npcId" value="220179"/>
+                        <params name="party" value="2"/>
+                    </action>
+                    <action id="12" name="项目" templateid="43" templatename="生成空地NPC队伍并显示形象" desc="生成[生成坐标:150030]位置，攻城值[攻城值:1000]，显示坐骑[坐骑形象:0]，名称为[NPC名字:匈奴骑兵]的NPC队伍[NPC的ID:220179]，所属[所属阵营:2]阵营">
+                        <params name="castleAtk" value="1000"/>
+                        <params name="coordId" value="150030"/>
+                        <params name="mountId" value="0"/>
+                        <params name="name" value="匈奴骑兵"/>
+                        <params name="npcId" value="220179"/>
+                        <params name="party" value="2"/>
+                    </action>
+                    <action id="13" name="项目" templateid="43" templatename="生成空地NPC队伍并显示形象" desc="生成[生成坐标:120028]位置，攻城值[攻城值:1000]，显示坐骑[坐骑形象:0]，名称为[NPC名字:匈奴骑兵]的NPC队伍[NPC的ID:220179]，所属[所属阵营:2]阵营">
+                        <params name="castleAtk" value="1000"/>
+                        <params name="coordId" value="120028"/>
+                        <params name="mountId" value="0"/>
+                        <params name="name" value="匈奴骑兵"/>
+                        <params name="npcId" value="220179"/>
+                        <params name="party" value="2"/>
+                    </action>
+                    <action id="20" name="项目" templateid="43" templatename="生成空地NPC队伍并显示形象" desc="生成[生成坐标:130029]位置，攻城值[攻城值:1000]，显示坐骑[坐骑形象:0]，名称为[NPC名字:匈奴骑兵]的NPC队伍[NPC的ID:220179]，所属[所属阵营:2]阵营">
+                        <params name="castleAtk" value="1000"/>
+                        <params name="coordId" value="130029"/>
+                        <params name="mountId" value="0"/>
+                        <params name="name" value="匈奴骑兵"/>
+                        <params name="npcId" value="220179"/>
+                        <params name="party" value="2"/>
+                    </action>
+                    <action id="21" name="项目" templateid="43" templatename="生成空地NPC队伍并显示形象" desc="生成[生成坐标:140030]位置，攻城值[攻城值:1000]，显示坐骑[坐骑形象:0]，名称为[NPC名字:匈奴骑兵]的NPC队伍[NPC的ID:220179]，所属[所属阵营:2]阵营">
+                        <params name="castleAtk" value="1000"/>
+                        <params name="coordId" value="140030"/>
+                        <params name="mountId" value="0"/>
+                        <params name="name" value="匈奴骑兵"/>
+                        <params name="npcId" value="220179"/>
+                        <params name="party" value="2"/>
+                    </action>
+                    <action id="22" name="项目" templateid="43" templatename="生成空地NPC队伍并显示形象" desc="生成[生成坐标:150031]位置，攻城值[攻城值:1000]，显示坐骑[坐骑形象:0]，名称为[NPC名字:匈奴骑兵]的NPC队伍[NPC的ID:220179]，所属[所属阵营:2]阵营">
+                        <params name="castleAtk" value="1000"/>
+                        <params name="coordId" value="150031"/>
+                        <params name="mountId" value="0"/>
+                        <params name="name" value="匈奴骑兵"/>
+                        <params name="npcId" value="220179"/>
+                        <params name="party" value="2"/>
+                    </action>
+                    <action id="23" name="项目" templateid="43" templatename="生成空地NPC队伍并显示形象" desc="生成[生成坐标:120029]位置，攻城值[攻城值:1000]，显示坐骑[坐骑形象:0]，名称为[NPC名字:匈奴骑兵]的NPC队伍[NPC的ID:220179]，所属[所属阵营:2]阵营">
+                        <params name="castleAtk" value="1000"/>
+                        <params name="coordId" value="120029"/>
+                        <params name="mountId" value="0"/>
+                        <params name="name" value="匈奴骑兵"/>
+                        <params name="npcId" value="220179"/>
+                        <params name="party" value="2"/>
+                    </action>
+                    <action id="24" name="项目" templateid="43" templatename="生成空地NPC队伍并显示形象" desc="生成[生成坐标:130030]位置，攻城值[攻城值:1000]，显示坐骑[坐骑形象:0]，名称为[NPC名字:匈奴骑兵]的NPC队伍[NPC的ID:220179]，所属[所属阵营:2]阵营">
+                        <params name="castleAtk" value="1000"/>
+                        <params name="coordId" value="130030"/>
+                        <params name="mountId" value="0"/>
+                        <params name="name" value="匈奴骑兵"/>
+                        <params name="npcId" value="220179"/>
+                        <params name="party" value="2"/>
+                    </action>
+                    <action id="25" name="项目" templateid="43" templatename="生成空地NPC队伍并显示形象" desc="生成[生成坐标:140031]位置，攻城值[攻城值:1000]，显示坐骑[坐骑形象:0]，名称为[NPC名字:匈奴骑兵]的NPC队伍[NPC的ID:220179]，所属[所属阵营:2]阵营">
+                        <params name="castleAtk" value="1000"/>
+                        <params name="coordId" value="140031"/>
+                        <params name="mountId" value="0"/>
+                        <params name="name" value="匈奴骑兵"/>
+                        <params name="npcId" value="220179"/>
+                        <params name="party" value="2"/>
+                    </action>
+                    <action id="26" name="项目" templateid="43" templatename="生成空地NPC队伍并显示形象" desc="生成[生成坐标:120030]位置，攻城值[攻城值:1000]，显示坐骑[坐骑形象:0]，名称为[NPC名字:匈奴骑兵]的NPC队伍[NPC的ID:220179]，所属[所属阵营:2]阵营">
+                        <params name="castleAtk" value="1000"/>
+                        <params name="coordId" value="120030"/>
+                        <params name="mountId" value="0"/>
+                        <params name="name" value="匈奴骑兵"/>
+                        <params name="npcId" value="220179"/>
+                        <params name="party" value="2"/>
+                    </action>
+                    <action id="27" name="项目" templateid="43" templatename="生成空地NPC队伍并显示形象" desc="生成[生成坐标:130031]位置，攻城值[攻城值:1000]，显示坐骑[坐骑形象:0]，名称为[NPC名字:匈奴骑兵]的NPC队伍[NPC的ID:220179]，所属[所属阵营:2]阵营">
+                        <params name="castleAtk" value="1000"/>
+                        <params name="coordId" value="130031"/>
+                        <params name="mountId" value="0"/>
+                        <params name="name" value="匈奴骑兵"/>
+                        <params name="npcId" value="220179"/>
+                        <params name="party" value="2"/>
+                    </action>
+                    <action id="28" name="项目" templateid="43" templatename="生成空地NPC队伍并显示形象" desc="生成[生成坐标:120031]位置，攻城值[攻城值:1000]，显示坐骑[坐骑形象:0]，名称为[NPC名字:匈奴骑兵]的NPC队伍[NPC的ID:220179]，所属[所属阵营:2]阵营">
+                        <params name="castleAtk" value="1000"/>
+                        <params name="coordId" value="120031"/>
+                        <params name="mountId" value="0"/>
+                        <params name="name" value="匈奴骑兵"/>
+                        <params name="npcId" value="220179"/>
+                        <params name="party" value="2"/>
+                    </action>
+                    <action id="45" name="项目" templateid="10" templatename="生成建筑" desc="[归属势力:2],[种类:32],[建筑名:匈奴仓库]的建筑在[坐标:110023]位置生成">
+                        <params name="belong" value="2"/>
+                        <params name="buildingName" value="匈奴仓库"/>
+                        <params name="coordId" value="110023"/>
+                        <params name="type" value="32"/>
+                    </action>
+                    <action id="46" name="项目" templateid="10" templatename="生成建筑" desc="[归属势力:2],[种类:33],[建筑名:匈奴据点]的建筑在[坐标:220022]位置生成">
+                        <params name="belong" value="2"/>
+                        <params name="buildingName" value="匈奴据点"/>
+                        <params name="coordId" value="220022"/>
+                        <params name="type" value="33"/>
+                    </action>
+                </result>
+            </eventtrigger>
+        </eventtriggergroup>
+        <eventtriggergroup id="11" name="刷新野怪和宝箱" desc=""/>
+        <eventtriggergroup id="12" name="NPC打怪" desc="">
+            <eventtrigger id="8" name="友军打怪" desc="条件:&#10;{[新手步骤:100103]}&#10;结果:&#10;1.每过[时间:0]秒后位于[坐标:170027],[数量:1],[npcId:220109]的NPC攻打[目标坐标:150028]位置,持续[次数:1]，速度[速度:112]&#10;2.每过[时间:0]秒后位于[坐标:180027],[数量:1],[npcId:220119]的NPC攻打[目标坐标:150028]位置,持续[次数:1]，速度[速度:158]&#10;3.每过[时间:0]秒后位于[坐标:170026],[数量:1],[npcId:220129]的NPC攻打[目标坐标:150028]位置,持续[次数:1]，速度[速度:141]&#10;4.每过[时间:0]秒后位于[坐标:170025],[数量:1],[npcId:220139]的NPC攻打[目标坐标:150028]位置,持续[次数:1]，速度[速度:180]&#10;5.每过[时间:0]秒后位于[坐标:190027],[数量:1],[npcId:220149]的NPC攻打[目标坐标:150028]位置,持续[次数:1]，速度[速度:206]&#10; ">
+                <condition id="8" name="条件" logictype="1" desc="{[新手步骤:100103]}">
+                    <action id="49" name="项目" templateid="41" templatename="完成新手" desc="[新手步骤:100103]">
+                        <params name="noviceID" value="100103"/>
+                        <params name="noviceId" value="100103"/>
+                    </action>
+                </condition>
+                <result id="8" name="结果" desc="1.每过[时间:0]秒后位于[坐标:170027],[数量:1],[npcId:220109]的NPC攻打[目标坐标:150028]位置,持续[次数:1]，速度[速度:112]&#10;2.每过[时间:0]秒后位于[坐标:180027],[数量:1],[npcId:220119]的NPC攻打[目标坐标:150028]位置,持续[次数:1]，速度[速度:158]&#10;3.每过[时间:0]秒后位于[坐标:170026],[数量:1],[npcId:220129]的NPC攻打[目标坐标:150028]位置,持续[次数:1]，速度[速度:141]&#10;4.每过[时间:0]秒后位于[坐标:170025],[数量:1],[npcId:220139]的NPC攻打[目标坐标:150028]位置,持续[次数:1]，速度[速度:180]&#10;5.每过[时间:0]秒后位于[坐标:190027],[数量:1],[npcId:220149]的NPC攻打[目标坐标:150028]位置,持续[次数:1]，速度[速度:206]&#10;">
+                    <action id="50" name="项目" templateid="12" templatename="NPC出兵攻打" desc="每过[时间:0]秒后位于[坐标:170027],[数量:1],[npcId:220109]的NPC攻打[目标坐标:150028]位置,持续[次数:1]，速度[速度:112]">
+                        <params name="coordId" value="170027"/>
+                        <params name="count" value="1"/>
+                        <params name="delay" value="0"/>
+                        <params name="npcId" value="220109"/>
+                        <params name="num" value="1"/>
+                        <params name="speed" value="112"/>
+                        <params name="targetCoordId" value="150028"/>
+                    </action>
+                    <action id="14" name="项目" templateid="12" templatename="NPC出兵攻打" desc="每过[时间:0]秒后位于[坐标:180027],[数量:1],[npcId:220119]的NPC攻打[目标坐标:150028]位置,持续[次数:1]，速度[速度:158]">
+                        <params name="coordId" value="180027"/>
+                        <params name="count" value="1"/>
+                        <params name="delay" value="0"/>
+                        <params name="npcId" value="220119"/>
+                        <params name="num" value="1"/>
+                        <params name="speed" value="158"/>
+                        <params name="targetCoordId" value="150028"/>
+                    </action>
+                    <action id="15" name="项目" templateid="12" templatename="NPC出兵攻打" desc="每过[时间:0]秒后位于[坐标:170026],[数量:1],[npcId:220129]的NPC攻打[目标坐标:150028]位置,持续[次数:1]，速度[速度:141]">
+                        <params name="coordId" value="170026"/>
+                        <params name="count" value="1"/>
+                        <params name="delay" value="0"/>
+                        <params name="npcId" value="220129"/>
+                        <params name="num" value="1"/>
+                        <params name="speed" value="141"/>
+                        <params name="targetCoordId" value="150028"/>
+                    </action>
+                    <action id="16" name="项目" templateid="12" templatename="NPC出兵攻打" desc="每过[时间:0]秒后位于[坐标:170025],[数量:1],[npcId:220139]的NPC攻打[目标坐标:150028]位置,持续[次数:1]，速度[速度:180]">
+                        <params name="coordId" value="170025"/>
+                        <params name="count" value="1"/>
+                        <params name="delay" value="0"/>
+                        <params name="npcId" value="220139"/>
+                        <params name="num" value="1"/>
+                        <params name="speed" value="180"/>
+                        <params name="targetCoordId" value="150028"/>
+                    </action>
+                    <action id="17" name="项目" templateid="12" templatename="NPC出兵攻打" desc="每过[时间:0]秒后位于[坐标:190027],[数量:1],[npcId:220149]的NPC攻打[目标坐标:150028]位置,持续[次数:1]，速度[速度:206]">
+                        <params name="coordId" value="190027"/>
+                        <params name="count" value="1"/>
+                        <params name="delay" value="0"/>
+                        <params name="npcId" value="220149"/>
+                        <params name="num" value="1"/>
+                        <params name="speed" value="206"/>
+                        <params name="targetCoordId" value="150028"/>
+                    </action>
+                </result>
+            </eventtrigger>
+        </eventtriggergroup>
+        <eventtriggergroup id="13" name="部分NPC返回" desc="">
+            <eventtrigger id="11" name="遣回秦皇李斯" desc="条件:&#10;{[新手步骤:100113]}&#10;结果:&#10;1.[数量:1],[npcId:220129]的NPC从[坐标:170026]位置向[目标坐标:190025]位置出兵，速度[速度:280]&#10;2.[数量:1],[npcId:220139]的NPC从[坐标:170025]位置向[目标坐标:190025]位置出兵，速度[速度:250]&#10; ">
+                <condition id="11" name="条件" logictype="1" desc="{[新手步骤:100113]}">
+                    <action id="57" name="项目" templateid="41" templatename="完成新手" desc="[新手步骤:100113]">
+                        <params name="noviceID" value="100107"/>
+                        <params name="noviceId" value="100113"/>
+                    </action>
+                </condition>
+                <result id="11" name="结果" desc="1.[数量:1],[npcId:220129]的NPC从[坐标:170026]位置向[目标坐标:190025]位置出兵，速度[速度:280]&#10;2.[数量:1],[npcId:220139]的NPC从[坐标:170025]位置向[目标坐标:190025]位置出兵，速度[速度:250]&#10;">
+                    <action id="58" name="项目" templateid="5" templatename="NPC出兵驻扎" desc="[数量:1],[npcId:220129]的NPC从[坐标:170026]位置向[目标坐标:190025]位置出兵，速度[速度:280]">
+                        <params name="coordId" value="170026"/>
+                        <params name="npcId" value="220129"/>
+                        <params name="num" value="1"/>
+                        <params name="speed" value="280"/>
+                        <params name="targetCoord" value="190025"/>
+                    </action>
+                    <action id="59" name="项目" templateid="5" templatename="NPC出兵驻扎" desc="[数量:1],[npcId:220139]的NPC从[坐标:170025]位置向[目标坐标:190025]位置出兵，速度[速度:250]">
+                        <params name="coordId" value="170025"/>
+                        <params name="npcId" value="220139"/>
+                        <params name="num" value="1"/>
+                        <params name="speed" value="250"/>
+                        <params name="targetCoord" value="190025"/>
+                    </action>
+                </result>
+            </eventtrigger>
+            <eventtrigger id="12" name="遣回除汉武李广" desc="条件:&#10;{[新手步骤:100115]}&#10;结果:&#10;1.[数量:1],[npcId:220119]的NPC从[坐标:180027]位置向[目标坐标:190025]位置出兵，速度[速度:280]&#10;2.[数量:1],[npcId:220149]的NPC从[坐标:190027]位置向[目标坐标:190025]位置出兵，速度[速度:250]&#10; ">
+                <condition id="14" name="条件" logictype="1" desc="{[新手步骤:100115]}">
+                    <action id="1" name="项目" templateid="41" templatename="完成新手" desc="[新手步骤:100115]">
+                        <params name="noviceID" value="100108"/>
+                        <params name="noviceId" value="100115"/>
+                    </action>
+                </condition>
+                <result id="12" name="结果" desc="1.[数量:1],[npcId:220119]的NPC从[坐标:180027]位置向[目标坐标:190025]位置出兵，速度[速度:280]&#10;2.[数量:1],[npcId:220149]的NPC从[坐标:190027]位置向[目标坐标:190025]位置出兵，速度[速度:250]&#10;">
+                    <action id="18" name="项目" templateid="5" templatename="NPC出兵驻扎" desc="[数量:1],[npcId:220119]的NPC从[坐标:180027]位置向[目标坐标:190025]位置出兵，速度[速度:280]">
+                        <params name="coordId" value="180027"/>
+                        <params name="npcId" value="220119"/>
+                        <params name="num" value="1"/>
+                        <params name="speed" value="280"/>
+                        <params name="targetCoord" value="190025"/>
+                    </action>
+                    <action id="19" name="项目" templateid="5" templatename="NPC出兵驻扎" desc="[数量:1],[npcId:220149]的NPC从[坐标:190027]位置向[目标坐标:190025]位置出兵，速度[速度:250]">
+                        <params name="coordId" value="190027"/>
+                        <params name="npcId" value="220149"/>
+                        <params name="num" value="1"/>
+                        <params name="speed" value="250"/>
+                        <params name="targetCoord" value="190025"/>
+                    </action>
+                </result>
+            </eventtrigger>
+        </eventtriggergroup>
+        <eventtriggergroup id="14" name="霍去病驻扎玩家城" desc="">
+            <eventtrigger id="13" name="霍去病驻扎玩家城" desc="条件:&#10;{[新手步骤:100117]}&#10;结果:&#10;1.[数量:1],[npcId:220109]的NPC从[坐标:170027]位置向[目标坐标:190025]位置出兵，速度[速度:354]&#10; ">
+                <condition id="15" name="条件" logictype="1" desc="{[新手步骤:100117]}">
+                    <action id="60" name="项目" templateid="41" templatename="完成新手" desc="[新手步骤:100117]">
+                        <params name="noviceId" value="100117"/>
+                    </action>
+                </condition>
+                <result id="13" name="结果" desc="1.[数量:1],[npcId:220109]的NPC从[坐标:170027]位置向[目标坐标:190025]位置出兵，速度[速度:354]&#10;">
+                    <action id="61" name="项目" templateid="5" templatename="NPC出兵驻扎" desc="[数量:1],[npcId:220109]的NPC从[坐标:170027]位置向[目标坐标:190025]位置出兵，速度[速度:354]">
+                        <params name="coordId" value="170027"/>
+                        <params name="npcId" value="220109"/>
+                        <params name="num" value="1"/>
+                        <params name="speed" value="354"/>
+                        <params name="targetCoord" value="190025"/>
+                    </action>
+                </result>
+            </eventtrigger>
+        </eventtriggergroup>
+        <eventtriggergroup id="15" name="刷出新NPC" desc="">
+            <eventtrigger id="14" name="刷出白起" desc="条件:&#10;{[新手步骤:100701]}&#10;结果:&#10;1.生成[生成坐标:210026]位置，攻城值[攻城值:1000]，显示坐骑[坐骑形象:0]，名称为[NPC名字:白起]的NPC队伍[NPC的ID:220159]，所属[所属阵营:1]阵营&#10;2.[野怪:20001]刷新在[坐标组:210025]位置&#10;3.[野怪:20001]刷新在[坐标组:210024]位置&#10; ">
+                <condition id="16" name="条件" logictype="1" desc="{[新手步骤:100701]}">
+                    <action id="62" name="项目" templateid="41" templatename="完成新手" desc="[新手步骤:100701]">
+                        <params name="noviceID" value="100701"/>
+                        <params name="noviceId" value="100701"/>
+                    </action>
+                </condition>
+                <result id="14" name="结果" desc="1.生成[生成坐标:210026]位置，攻城值[攻城值:1000]，显示坐骑[坐骑形象:0]，名称为[NPC名字:白起]的NPC队伍[NPC的ID:220159]，所属[所属阵营:1]阵营&#10;2.[野怪:20001]刷新在[坐标组:210025]位置&#10;3.[野怪:20001]刷新在[坐标组:210024]位置&#10;">
+                    <action id="63" name="项目" templateid="43" templatename="生成空地NPC队伍并显示形象" desc="生成[生成坐标:210026]位置，攻城值[攻城值:1000]，显示坐骑[坐骑形象:0]，名称为[NPC名字:白起]的NPC队伍[NPC的ID:220159]，所属[所属阵营:1]阵营">
+                        <params name="castleATK" value="1000"/>
+                        <params name="castleAtk" value="1000"/>
+                        <params name="coordId" value="210026"/>
+                        <params name="mountID" value="0"/>
+                        <params name="mountId" value="0"/>
+                        <params name="name" value="白起"/>
+                        <params name="npcId" value="220159"/>
+                        <params name="party" value="1"/>
+                    </action>
+                    <action id="64" name="项目" templateid="14" templatename="野怪刷新" desc="[野怪:20001]刷新在[坐标组:210025]位置">
+                        <params name="coordIds" value="210025"/>
+                        <params name="monsterIds" value="20001"/>
+                    </action>
+                    <action id="65" name="项目" templateid="14" templatename="野怪刷新" desc="[野怪:20001]刷新在[坐标组:210024]位置">
+                        <params name="coordIds" value="210024"/>
+                        <params name="monsterIds" value="20001"/>
+                    </action>
+                </result>
+            </eventtrigger>
+        </eventtriggergroup>
+        <eventtriggergroup id="16" name="NPC协助打怪" desc="">
+            <eventtrigger id="15" name="白起协助打怪" desc="条件:&#10;{玩家向目标地块[目标地块坐标:210024]发出指令类型[指令类型:6]}&#10;结果:&#10;1.每过[时间:0]秒后位于[坐标:210026],[数量:1],[npcId:220159]的NPC攻打[目标坐标:210025]位置,持续[次数:1]，速度[速度:0]&#10; ">
+                <condition id="17" name="条件" logictype="1" desc="{玩家向目标地块[目标地块坐标:210024]发出指令类型[指令类型:6]}">
+                    <action id="66" name="项目" templateid="36" templatename="玩家出征或征讨开始时" desc="玩家向目标地块[目标地块坐标:210024]发出指令类型[指令类型:6]">
+                        <params name="coordId" value="210024"/>
+                        <params name="marchType" value="6"/>
+                    </action>
+                </condition>
+                <result id="15" name="结果" desc="1.每过[时间:0]秒后位于[坐标:210026],[数量:1],[npcId:220159]的NPC攻打[目标坐标:210025]位置,持续[次数:1]，速度[速度:0]&#10;">
+                    <action id="67" name="项目" templateid="12" templatename="NPC出兵攻打" desc="每过[时间:0]秒后位于[坐标:210026],[数量:1],[npcId:220159]的NPC攻打[目标坐标:210025]位置,持续[次数:1]，速度[速度:0]">
+                        <params name="coordId" value="210026"/>
+                        <params name="count" value="1"/>
+                        <params name="delay" value="0"/>
+                        <params name="npcId" value="220159"/>
+                        <params name="num" value="1"/>
+                        <params name="speed" value="0"/>
+                        <params name="targetCoordId" value="210025"/>
+                    </action>
+                </result>
+            </eventtrigger>
+        </eventtriggergroup>
+        <eventtriggergroup id="17" name="NPC协助打地1" desc="">
+            <eventtrigger id="16" name="白起协助打地" desc="条件:&#10;{玩家向目标地块[目标地块坐标:210024]发出指令类型[指令类型:3]}&#10;结果:&#10;1.每过[时间:0]秒后位于[坐标:210026],[数量:1],[npcId:220159]的NPC攻打[目标坐标:210025]位置,持续[次数:1]，速度[速度:0]&#10; ">
+                <condition id="18" name="条件" logictype="1" desc="{玩家向目标地块[目标地块坐标:210024]发出指令类型[指令类型:3]}">
+                    <action id="68" name="项目" templateid="36" templatename="玩家出征或征讨开始时" desc="玩家向目标地块[目标地块坐标:210024]发出指令类型[指令类型:3]">
+                        <params name="coordId" value="210024"/>
+                        <params name="marchType" value="3"/>
+                    </action>
+                </condition>
+                <result id="16" name="结果" desc="1.每过[时间:0]秒后位于[坐标:210026],[数量:1],[npcId:220159]的NPC攻打[目标坐标:210025]位置,持续[次数:1]，速度[速度:0]&#10;">
+                    <action id="69" name="项目" templateid="12" templatename="NPC出兵攻打" desc="每过[时间:0]秒后位于[坐标:210026],[数量:1],[npcId:220159]的NPC攻打[目标坐标:210025]位置,持续[次数:1]，速度[速度:0]">
+                        <params name="coordId" value="210026"/>
+                        <params name="count" value="1"/>
+                        <params name="delay" value="0"/>
+                        <params name="npcId" value="220159"/>
+                        <params name="num" value="1"/>
+                        <params name="speed" value="0"/>
+                        <params name="targetCoordId" value="210025"/>
+                    </action>
+                </result>
+            </eventtrigger>
+        </eventtriggergroup>
+        <eventtriggergroup id="18" name="NPC协助打地2" desc="">
+            <eventtrigger id="17" name="白起协助打地" desc="条件:&#10;{玩家向目标地块[目标地块坐标:220023]发出指令类型[指令类型:3]}&#10;结果:&#10;1.每过[时间:0]秒后位于[坐标:210025],[数量:1],[npcId:220159]的NPC攻打[目标坐标:220024]位置,持续[次数:1]，速度[速度:0]&#10; ">
+                <condition id="19" name="条件" logictype="1" desc="{玩家向目标地块[目标地块坐标:220023]发出指令类型[指令类型:3]}">
+                    <action id="70" name="项目" templateid="36" templatename="玩家出征或征讨开始时" desc="玩家向目标地块[目标地块坐标:220023]发出指令类型[指令类型:3]">
+                        <params name="coordId" value="220023"/>
+                        <params name="marchType" value="3"/>
+                    </action>
+                </condition>
+                <result id="17" name="结果" desc="1.每过[时间:0]秒后位于[坐标:210025],[数量:1],[npcId:220159]的NPC攻打[目标坐标:220024]位置,持续[次数:1]，速度[速度:0]&#10;">
+                    <action id="71" name="项目" templateid="12" templatename="NPC出兵攻打" desc="每过[时间:0]秒后位于[坐标:210025],[数量:1],[npcId:220159]的NPC攻打[目标坐标:220024]位置,持续[次数:1]，速度[速度:0]">
+                        <params name="coordId" value="210025"/>
+                        <params name="count" value="1"/>
+                        <params name="delay" value="0"/>
+                        <params name="npcId" value="220159"/>
+                        <params name="num" value="1"/>
+                        <params name="speed" value="0"/>
+                        <params name="targetCoordId" value="220024"/>
+                    </action>
+                </result>
+            </eventtrigger>
+        </eventtriggergroup>
+        <eventtriggergroup id="19" name="发布集结" desc="">
+            <eventtrigger id="18" name="发布集结" desc="条件:&#10;{[新手步骤:101903]}&#10;结果:&#10;1.发布[集结时间:1]分钟后对目的地[坐标:220022]的集结&#10; ">
+                <condition id="20" name="条件" logictype="1" desc="{[新手步骤:101903]}">
+                    <action id="72" name="项目" templateid="41" templatename="完成新手" desc="[新手步骤:101903]">
+                        <params name="noviceId" value="101903"/>
+                    </action>
+                </condition>
+                <result id="18" name="结果" desc="1.发布[集结时间:1]分钟后对目的地[坐标:220022]的集结&#10;">
+                    <action id="73" name="项目" templateid="39" templatename="发布集结" desc="发布[集结时间:1]分钟后对目的地[坐标:220022]的集结">
+                        <params name="minute" value="1"/>
+                        <params name="targetCoordId" value="220022"/>
+                    </action>
+                </result>
+            </eventtrigger>
+        </eventtriggergroup>
+        <eventtriggergroup id="20" name="匈奴兵逃跑" desc="">
+            <eventtrigger id="20" name="Trigger" desc="条件:&#10;{[新手步骤:100105]}&#10;结果:&#10;1.清除地块[坐标:140028]上的NPC队伍&#10;2.清除地块[坐标:150029]上的NPC队伍&#10;3.清除地块[坐标:130028]上的NPC队伍&#10;4.清除地块[坐标:140029]上的NPC队伍&#10;5.清除地块[坐标:150030]上的NPC队伍&#10;6.清除地块[坐标:120028]上的NPC队伍&#10;7.清除地块[坐标:130029]上的NPC队伍&#10;8.清除地块[坐标:140030]上的NPC队伍&#10;9.清除地块[坐标:150031]上的NPC队伍&#10;10.清除地块[坐标:120029]上的NPC队伍&#10;11.清除地块[坐标:130030]上的NPC队伍&#10;12.清除地块[坐标:140031]上的NPC队伍&#10;13.清除地块[坐标:120030]上的NPC队伍&#10;14.清除地块[坐标:130031]上的NPC队伍&#10;15.清除地块[坐标:120031]上的NPC队伍&#10; ">
+                <condition id="13" name="条件" logictype="1" desc="{[新手步骤:100105]}">
+                    <action id="74" name="项目" templateid="41" templatename="完成新手" desc="[新手步骤:100105]">
+                        <params name="noviceId" value="100105"/>
+                    </action>
+                </condition>
+                <result id="20" name="结果" desc="1.清除地块[坐标:140028]上的NPC队伍&#10;2.清除地块[坐标:150029]上的NPC队伍&#10;3.清除地块[坐标:130028]上的NPC队伍&#10;4.清除地块[坐标:140029]上的NPC队伍&#10;5.清除地块[坐标:150030]上的NPC队伍&#10;6.清除地块[坐标:120028]上的NPC队伍&#10;7.清除地块[坐标:130029]上的NPC队伍&#10;8.清除地块[坐标:140030]上的NPC队伍&#10;9.清除地块[坐标:150031]上的NPC队伍&#10;10.清除地块[坐标:120029]上的NPC队伍&#10;11.清除地块[坐标:130030]上的NPC队伍&#10;12.清除地块[坐标:140031]上的NPC队伍&#10;13.清除地块[坐标:120030]上的NPC队伍&#10;14.清除地块[坐标:130031]上的NPC队伍&#10;15.清除地块[坐标:120031]上的NPC队伍&#10;">
+                    <action id="75" name="项目" templateid="44" templatename="清除地块NPC队伍" desc="清除地块[坐标:140028]上的NPC队伍">
+                        <params name="coordId" value="140028"/>
+                    </action>
+                    <action id="76" name="项目" templateid="44" templatename="清除地块NPC队伍" desc="清除地块[坐标:150029]上的NPC队伍">
+                        <params name="coordId" value="150029"/>
+                    </action>
+                    <action id="77" name="项目" templateid="44" templatename="清除地块NPC队伍" desc="清除地块[坐标:130028]上的NPC队伍">
+                        <params name="coordId" value="130028"/>
+                    </action>
+                    <action id="78" name="项目" templateid="44" templatename="清除地块NPC队伍" desc="清除地块[坐标:140029]上的NPC队伍">
+                        <params name="coordId" value="140029"/>
+                    </action>
+                    <action id="79" name="项目" templateid="44" templatename="清除地块NPC队伍" desc="清除地块[坐标:150030]上的NPC队伍">
+                        <params name="coordId" value="150030"/>
+                    </action>
+                    <action id="80" name="项目" templateid="44" templatename="清除地块NPC队伍" desc="清除地块[坐标:120028]上的NPC队伍">
+                        <params name="coordId" value="120028"/>
+                    </action>
+                    <action id="81" name="项目" templateid="44" templatename="清除地块NPC队伍" desc="清除地块[坐标:130029]上的NPC队伍">
+                        <params name="coordId" value="130029"/>
+                    </action>
+                    <action id="82" name="项目" templateid="44" templatename="清除地块NPC队伍" desc="清除地块[坐标:140030]上的NPC队伍">
+                        <params name="coordId" value="140030"/>
+                    </action>
+                    <action id="83" name="项目" templateid="44" templatename="清除地块NPC队伍" desc="清除地块[坐标:150031]上的NPC队伍">
+                        <params name="coordId" value="150031"/>
+                    </action>
+                    <action id="84" name="项目" templateid="44" templatename="清除地块NPC队伍" desc="清除地块[坐标:120029]上的NPC队伍">
+                        <params name="coordId" value="120029"/>
+                    </action>
+                    <action id="85" name="项目" templateid="44" templatename="清除地块NPC队伍" desc="清除地块[坐标:130030]上的NPC队伍">
+                        <params name="coordId" value="130030"/>
+                    </action>
+                    <action id="86" name="项目" templateid="44" templatename="清除地块NPC队伍" desc="清除地块[坐标:140031]上的NPC队伍">
+                        <params name="coordId" value="140031"/>
+                    </action>
+                    <action id="87" name="项目" templateid="44" templatename="清除地块NPC队伍" desc="清除地块[坐标:120030]上的NPC队伍">
+                        <params name="coordId" value="120030"/>
+                    </action>
+                    <action id="88" name="项目" templateid="44" templatename="清除地块NPC队伍" desc="清除地块[坐标:130031]上的NPC队伍">
+                        <params name="coordId" value="130031"/>
+                    </action>
+                    <action id="89" name="项目" templateid="44" templatename="清除地块NPC队伍" desc="清除地块[坐标:120031]上的NPC队伍">
+                        <params name="coordId" value="120031"/>
+                    </action>
+                </result>
+            </eventtrigger>
+        </eventtriggergroup>
+    </eventtriggers>
+<business>
+        <cities>
+            <city coordid="190025" citytype="0" belongid="0" regionid="0" durability="0" durabilityrecoveryspeed="0" beforenpcarmyid="0" afternpcarmyid="0" beforenpcarmynumid="0" afternpcarmynumid="0" power="0" level="0"/>
+        </cities>
+    </business>
+</map>

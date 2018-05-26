@@ -1,0 +1,491 @@
+{
+    "height": 10,
+    "layers": [
+        {
+            "compression": "zlib",
+            "data": "eJxjYBh4wDnQDhhEAAAK/AAK",
+            "encoding": "base64",
+            "height": 10,
+            "name": "di",
+            "opacity": 1,
+            "properties": {
+                "tileset": "l1",
+                "type": 2
+            },
+            "propertytypes": {
+                "tileset": "string",
+                "type": "int"
+            },
+            "type": "tilelayer",
+            "visible": true,
+            "width": 10,
+            "x": 0,
+            "y": 0
+        },
+        {
+            "compression": "zlib",
+            "data": "eJxjYBgFgwkAAAGQAAE=",
+            "encoding": "base64",
+            "height": 10,
+            "name": "res",
+            "needhide": true,
+            "opacity": 1,
+            "properties": {
+                "tileset": "l1",
+                "type": 3
+            },
+            "propertytypes": {
+                "tileset": "string",
+                "type": "int"
+            },
+            "type": "tilelayer",
+            "visible": true,
+            "width": 10,
+            "x": 0,
+            "y": 0
+        },
+        {
+            "compression": "zlib",
+            "data": "eJxjYBgFgwkAAAGQAAE=",
+            "encoding": "base64",
+            "height": 10,
+            "name": "mountain",
+            "opacity": 1,
+            "properties": {
+                "tileset": "l1",
+                "type": 9
+            },
+            "propertytypes": {
+                "tileset": "string",
+                "type": "int"
+            },
+            "type": "tilelayer",
+            "visible": true,
+            "width": 10,
+            "x": 0,
+            "y": 0
+        },
+        {
+            "compression": "zlib",
+            "data": "eJxjYBgFgwkAAAGQAAE=",
+            "encoding": "base64",
+            "height": 10,
+            "name": "biaoji",
+            "opacity": 1,
+            "properties": {
+                "tileset": "l1",
+                "type": 7
+            },
+            "propertytypes": {
+                "tileset": "string",
+                "type": "int"
+            },
+            "type": "tilelayer",
+            "visible": false,
+            "width": 10,
+            "x": 0,
+            "y": 0
+        },
+        {
+            "compression": "zlib",
+            "data": "eJxjYBgFgwkAAAGQAAE=",
+            "encoding": "base64",
+            "height": 10,
+            "name": "random",
+            "opacity": 1,
+            "properties": {
+                "tileset": "l1",
+                "type": 5
+            },
+            "propertytypes": {
+                "tileset": "string",
+                "type": "int"
+            },
+            "type": "tilelayer",
+            "visible": true,
+            "width": 10,
+            "x": 0,
+            "y": 0
+        }
+    ],
+    "nextobjectid": 1,
+    "orientation": "isometric",
+    "properties": {
+        "mapID": 1
+    },
+    "propertytypes": {
+        "mapID": "int"
+    },
+    "renderorder": "right-down",
+    "tileheight": 128,
+    "tilesets": [
+        {
+            "columns": 7,
+            "firstgid": 1,
+            "image": "../Documents/workspace/tiled/sg2/测试地图3/terrain2.png",
+            "imageheight": 939,
+            "imagewidth": 1814,
+            "margin": 0,
+            "name": "l1",
+            "properties": {
+                "riverGroup": "4-23"
+            },
+            "propertytypes": {
+                "riverGroup": "string"
+            },
+            "spacing": 6,
+            "terrains": [
+                {
+                    "name": "water",
+                    "properties": {
+                        "ex": "water"
+                    },
+                    "propertytypes": {
+                        "ex": "string"
+                    },
+                    "tile": -1
+                }
+            ],
+            "tilecount": 49,
+            "tileheight": 129,
+            "tiles": {
+                "0": {
+                    "terrain": [
+                        0,
+                        -1,
+                        -1,
+                        -1
+                    ]
+                },
+                "1": {
+                    "terrain": [
+                        -1,
+                        -1,
+                        0,
+                        -1
+                    ]
+                },
+                "2": {
+                    "terrain": [
+                        -1,
+                        -1,
+                        -1,
+                        0
+                    ]
+                },
+                "3": {
+                    "terrain": [
+                        -1,
+                        0,
+                        -1,
+                        -1
+                    ]
+                },
+                "5": {
+                    "terrain": [
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                }
+            },
+            "tilewidth": 254
+        },
+        {
+            "columns": 7,
+            "firstgid": 1,
+            "image": "../Documents/workspace/tiled/sg2/测试地图3/terrain2.png",
+            "imageheight": 939,
+            "imagewidth": 1814,
+            "margin": 0,
+            "name": "l1",
+            "properties": {
+                "riverGroup": "4-23"
+            },
+            "propertytypes": {
+                "riverGroup": "string"
+            },
+            "spacing": 6,
+            "terrains": [
+                {
+                    "name": "water",
+                    "properties": {
+                        "ex": "water"
+                    },
+                    "propertytypes": {
+                        "ex": "string"
+                    },
+                    "tile": -1
+                }
+            ],
+            "tilecount": 49,
+            "tileheight": 129,
+            "tiles": {
+                "0": {
+                    "terrain": [
+                        0,
+                        -1,
+                        -1,
+                        -1
+                    ]
+                },
+                "1": {
+                    "terrain": [
+                        -1,
+                        -1,
+                        0,
+                        -1
+                    ]
+                },
+                "2": {
+                    "terrain": [
+                        -1,
+                        -1,
+                        -1,
+                        0
+                    ]
+                },
+                "3": {
+                    "terrain": [
+                        -1,
+                        0,
+                        -1,
+                        -1
+                    ]
+                },
+                "5": {
+                    "terrain": [
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                }
+            },
+            "tilewidth": 254
+        },
+        {
+            "columns": 7,
+            "firstgid": 1,
+            "image": "../Documents/workspace/tiled/sg2/测试地图3/terrain2.png",
+            "imageheight": 939,
+            "imagewidth": 1814,
+            "margin": 0,
+            "name": "l1",
+            "properties": {
+                "riverGroup": "4-23"
+            },
+            "propertytypes": {
+                "riverGroup": "string"
+            },
+            "spacing": 6,
+            "terrains": [
+                {
+                    "name": "water",
+                    "properties": {
+                        "ex": "water"
+                    },
+                    "propertytypes": {
+                        "ex": "string"
+                    },
+                    "tile": -1
+                }
+            ],
+            "tilecount": 49,
+            "tileheight": 129,
+            "tiles": {
+                "0": {
+                    "terrain": [
+                        0,
+                        -1,
+                        -1,
+                        -1
+                    ]
+                },
+                "1": {
+                    "terrain": [
+                        -1,
+                        -1,
+                        0,
+                        -1
+                    ]
+                },
+                "2": {
+                    "terrain": [
+                        -1,
+                        -1,
+                        -1,
+                        0
+                    ]
+                },
+                "3": {
+                    "terrain": [
+                        -1,
+                        0,
+                        -1,
+                        -1
+                    ]
+                },
+                "5": {
+                    "terrain": [
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                }
+            },
+            "tilewidth": 254
+        },
+        {
+            "columns": 7,
+            "firstgid": 1,
+            "image": "../Documents/workspace/tiled/sg2/测试地图3/terrain2.png",
+            "imageheight": 939,
+            "imagewidth": 1814,
+            "margin": 0,
+            "name": "l1",
+            "properties": {
+                "riverGroup": "4-23"
+            },
+            "propertytypes": {
+                "riverGroup": "string"
+            },
+            "spacing": 6,
+            "terrains": [
+                {
+                    "name": "water",
+                    "properties": {
+                        "ex": "water"
+                    },
+                    "propertytypes": {
+                        "ex": "string"
+                    },
+                    "tile": -1
+                }
+            ],
+            "tilecount": 49,
+            "tileheight": 129,
+            "tiles": {
+                "0": {
+                    "terrain": [
+                        0,
+                        -1,
+                        -1,
+                        -1
+                    ]
+                },
+                "1": {
+                    "terrain": [
+                        -1,
+                        -1,
+                        0,
+                        -1
+                    ]
+                },
+                "2": {
+                    "terrain": [
+                        -1,
+                        -1,
+                        -1,
+                        0
+                    ]
+                },
+                "3": {
+                    "terrain": [
+                        -1,
+                        0,
+                        -1,
+                        -1
+                    ]
+                },
+                "5": {
+                    "terrain": [
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                }
+            },
+            "tilewidth": 254
+        },
+        {
+            "columns": 7,
+            "firstgid": 1,
+            "image": "../Documents/workspace/tiled/sg2/测试地图3/terrain2.png",
+            "imageheight": 939,
+            "imagewidth": 1814,
+            "margin": 0,
+            "name": "l1",
+            "properties": {
+                "riverGroup": "4-23"
+            },
+            "propertytypes": {
+                "riverGroup": "string"
+            },
+            "spacing": 6,
+            "terrains": [
+                {
+                    "name": "water",
+                    "properties": {
+                        "ex": "water"
+                    },
+                    "propertytypes": {
+                        "ex": "string"
+                    },
+                    "tile": -1
+                }
+            ],
+            "tilecount": 49,
+            "tileheight": 129,
+            "tiles": {
+                "0": {
+                    "terrain": [
+                        0,
+                        -1,
+                        -1,
+                        -1
+                    ]
+                },
+                "1": {
+                    "terrain": [
+                        -1,
+                        -1,
+                        0,
+                        -1
+                    ]
+                },
+                "2": {
+                    "terrain": [
+                        -1,
+                        -1,
+                        -1,
+                        0
+                    ]
+                },
+                "3": {
+                    "terrain": [
+                        -1,
+                        0,
+                        -1,
+                        -1
+                    ]
+                },
+                "5": {
+                    "terrain": [
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                }
+            },
+            "tilewidth": 254
+        }
+    ],
+    "tilewidth": 254,
+    "version": 1,
+    "width": 10
+}
